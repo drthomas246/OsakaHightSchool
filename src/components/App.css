@@ -1,0 +1,39 @@
+html,
+body,
+#app,
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  filter: hue-rotate(150deg);
+}
+
+.deep-green {
+  filter: hue-rotate(250deg);
+}
+
+.green {
+  filter: hue-rotate(300deg);
+}
+
+.sky {
+  filter: hue-rotate(335deg);
+}
+
+.purple {
+  filter: hue-rotate(50deg);
+}
+
+.pink {
+  filter: hue-rotate(100deg);
+}
+
+.brown {
+  filter: hue-rotate(185deg);
+}
+
+.size {
+  height: 1.5em;
+}
