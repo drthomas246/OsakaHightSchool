@@ -9,7 +9,7 @@ import CallIcon from "@mui/icons-material/Call";
 import RoomIcon from "@mui/icons-material/Room";
 import PublicIcon from "@mui/icons-material/Public";
 
-import Data from "~/components/file.json";
+import Data from "../file.json";
 
 const Detail: React.FC<DetailProps> = (Props) => {
   return (
