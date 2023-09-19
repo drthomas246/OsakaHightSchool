@@ -50,6 +50,7 @@
 * ![ESLint](https://img.shields.io/badge/ESLint-%5E8.0.1-blue?logo=eslint&logoColor=%234B32C3)
 * ![Prettier](https://img.shields.io/badge/Prettier-%5E3.0.1-blue?logo=prettier&logoColor=%23F7B93E)
 * ![Jest](https://img.shields.io/badge/Jest-%5E29.7.0-blue?logo=jest&logoColor=%23C21325)
+* ![Static Badge](https://img.shields.io/badge/Storybook-%5E7.4.2-blue?logo=storybook&logoColor=%23FF4785)
 
 
 ### 📥Installation
