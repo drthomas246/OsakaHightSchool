@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Yamahara Yoshihiro",
-  "license": "MIT",
+  "license": "BSL1.1 modification",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
