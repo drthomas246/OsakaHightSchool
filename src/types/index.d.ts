@@ -1,12 +1,12 @@
 declare module "*.png";
 declare module "*.json";
 
-type FormControlLabelProps = {
+interface FormControlLabelProps {
   number: number;
   label: string;
-};
+}
 
-type HightSchoolData = {
+interface HightSchoolData {
   id: number;
   name: string;
   ruby: string;
@@ -19,21 +19,21 @@ type HightSchoolData = {
   lat: number;
   lng: number;
   near: string;
-};
+}
 
-type CurrentLocationDisplayType = {
+interface CurrentLocationDisplayType {
   enabled: boolean;
-};
+}
 
-type LenderSettingType = {
+interface LenderSettingType {
   showPanel: number;
-};
+}
 
-type FilteredDataType = {
+interface FilteredDataType {
   searchResultData: Array<Fuse.FuseResult<HightSchoolData>>;
-};
+}
 
-type FilteringItemsType = {
+interface FilteringItemsType {
   distinctionOfSex: boolean[];
   installationClassification: boolean[];
   agricultural: boolean[];
@@ -51,9 +51,9 @@ type FilteringItemsType = {
   sienese: boolean[];
   specialSchool: boolean[];
   welfareRelated: boolean[];
-};
+}
 
-type MarkerProps = {
+interface MarkerProps {
   id?: number;
   name: string;
   site?: string;
@@ -64,9 +64,9 @@ type MarkerProps = {
   color: string;
   position: import("leaflet").LatLng;
   location?: boolean;
-};
+}
 
-type HightSchoolistItemProps = {
+interface HightSchoolistItemProps {
   id: number;
   name: string;
   site: string;
@@ -74,47 +74,47 @@ type HightSchoolistItemProps = {
   course: string;
   tel: string;
   toggleDownDrawer?: (open: boolean) => void;
-};
+}
 
-type NavigationButtonsProps = {
+interface NavigationButtonsProps {
   tel: string;
   site: string;
   address: string;
-};
+}
 
-type FilterDrawerProps = {
+interface FilterDrawerProps {
   filterDrawer: boolean;
   handleFilterDrawerClose: () => void;
-};
+}
 
-type MenuDrawerProps = {
+interface MenuDrawerProps {
   menuDrawer: boolean;
   handleMenuDrawerClose: () => void;
-};
+}
 
-type MapRecenterProps = {
+interface MapRecenterProps {
   lat: number;
   lng: number;
-};
+}
 
-type DistinctionOfSexCheckBoxProps = {
+interface DistinctionOfSexCheckBoxProps {
   children: React.ReactNode;
-};
+}
 
-type HightSchoolItemProps = {
+interface HightSchoolItemProps {
   result: ReadonlyArray<Fuse.FuseResult<HightSchoolData>>;
-};
+}
 
-type DetailProps = {
+interface DetailProps {
   detailId: number;
-};
+}
 
-type LatitudeLongitude = {
+interface LatitudeLongitude {
   latitude: number;
   longitude: number;
-};
+}
 
-type SnapshotFilteringItemsType = {
+interface SnapshotFilteringItemsType {
   readonly distinctionOfSex: readonly boolean[];
   readonly installationClassification: readonly boolean[];
   readonly agricultural: readonly boolean[];
@@ -132,7 +132,7 @@ type SnapshotFilteringItemsType = {
   readonly sienese: readonly boolean[];
   readonly specialSchool: readonly boolean[];
   readonly welfareRelated: readonly boolean[];
-};
+}
 
 type HightSchoolResultData = Fuse.FuseResult<HightSchoolData>;
 

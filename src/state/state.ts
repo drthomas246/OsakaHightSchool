@@ -50,7 +50,7 @@ export const filteringItems = proxy<FilteringItemsType>({
   welfareRelated: new Array(WelfareRelatedLabel.sub.length).fill(false),
 });
 
-export const setShowPanel = (event: React.SyntheticEvent<Element, Event>, newValue: number): void => {
+export const setShowPanel = (_: React.SyntheticEvent<Element, Event>, newValue: number): void => {
   lenderSetting.showPanel = newValue;
 };
 

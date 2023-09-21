@@ -49,11 +49,13 @@ const HightSchoolMap: React.FC = () => {
   const snapFilteredData = useSnapshot<FilteredDataType>(filteredData);
   const snapCurrentLocationDisplay = useSnapshot<CurrentLocationDisplayType>(currentLocationDisplay);
   const [position, setPosition] = useState<LatitudeLongitude>({ latitude: 34.68646722650664, longitude: 135.51972054126023 });
-  useLayoutEffect(() => {
+  useLayoutEffect((): void => {
     if (!snapCurrentLocationDisplay.enabled) {
       return;
     }
-    getPosition(setPosition);
+    getPosition(setPosition)
+      .then(() => {})
+      .catch(() => {});
   }, [snapCurrentLocationDisplay.enabled]);
   return (
     <MapContainer zoom={10} center={new L.LatLng(position.latitude, position.longitude)}>
