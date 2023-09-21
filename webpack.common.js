@@ -1,14 +1,8 @@
-import path from 'path'
-import HtmlWebpackPlugin from 'html-webpack-plugin'
+const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: './src/index.tsx',
-  output: {
-    path: path.join(__dirname, '/dist'),
-    filename: 'bundle.js'
-  },
-  devtool: 'inline-source-map',
   module: {
     rules: [
       {
@@ -44,12 +38,6 @@ module.exports = {
     alias: {
       '~': path.resolve(__dirname, 'src')
     }
-  },
-
-  devServer: {
-    static: path.join(__dirname, '/dist'),
-    open: true,
-    port: 3000
   },
   plugins: [
     new HtmlWebpackPlugin({

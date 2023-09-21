@@ -5,8 +5,8 @@
   "author": "Yamahara Yoshihiro",
   "license": "BSL1.1 modification",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
     "lint": "eslint src/**/*.tsx",
     "pr": "prettier --write src",
     "test": "jest",
@@ -75,6 +75,7 @@
     "typescript": "*",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
   }
 }
