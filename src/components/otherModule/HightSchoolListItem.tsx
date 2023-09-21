@@ -10,7 +10,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { TransitionProps } from "@mui/material/transitions";
+import { type TransitionProps } from "@mui/material/transitions";
 import DialogContent from "@mui/material/DialogContent";
 
 import NavigationButtons from "./NavigationButtons";
@@ -31,12 +31,12 @@ Transition.displayName = "Transition";
 
 const HightSchoolListItem: React.FC<HightSchoolistItemProps> = (Props) => {
   const [open, setOpen] = React.useState(false);
-  const handleClickOpen = () => {
+  const handleClickOpen = (): void => {
     setOpen(true);
   };
-  const handleClose = () => {
+  const handleClose = (): void => {
     setOpen(false);
-    if (Props.toggleDownDrawer) {
+    if (Props.toggleDownDrawer != null) {
       Props.toggleDownDrawer(false);
     }
   };

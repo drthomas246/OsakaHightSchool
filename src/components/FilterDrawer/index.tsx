@@ -66,7 +66,7 @@ import {
   WelfareRelatedLabel,
 } from "../CourseData";
 
-const CourseFilter = (value: string) => {
+const CourseFilter = (value: string): any => {
   return [
     {
       $path: "course1",
@@ -96,10 +96,10 @@ const CourseFilter = (value: string) => {
 };
 
 const checkBoolean = (bool: boolean): boolean => {
-  return bool === false;
+  return !bool;
 };
 
-const CourseOfStudyCheckChecked = (values: SnapshotFilteringItemsType) =>
+const CourseOfStudyCheckChecked = (values: SnapshotFilteringItemsType): boolean =>
   [
     values.agricultural.every(checkBoolean),
     values.art.every(checkBoolean),
@@ -117,10 +117,10 @@ const CourseOfStudyCheckChecked = (values: SnapshotFilteringItemsType) =>
     values.specialSchool.every(checkBoolean),
     values.welfareRelated.every(checkBoolean),
   ].every((bool: boolean): boolean => {
-    return bool === true;
+    return bool;
   });
 
-const CourseFilters = (values: SnapshotFilteringItemsType) => {
+const CourseFilters = (values: SnapshotFilteringItemsType): any => {
   const value: Array<{ $or: Array<{ $path: string; $val: string }> }> = [];
   if (CourseOfStudyCheckChecked(values)) {
     for (let i = 0; i < AgriculturalLabel.sub.length; i += 1) {
@@ -247,7 +247,7 @@ const CourseFilters = (values: SnapshotFilteringItemsType) => {
   });
   return value;
 };
-const EducationFilters = (values: ReadonlyArray<boolean>) => {
+const EducationFilters = (values: readonly boolean[]): any => {
   const value: Array<{ $path: string; $val: string }> = [];
   if (values.every(checkBoolean)) {
     for (let i = 0; i < DistinctionOfSexLabel.sub.length; i += 1) {
@@ -255,14 +255,14 @@ const EducationFilters = (values: ReadonlyArray<boolean>) => {
     }
     return value;
   }
-  values.forEach((element, index) => {
+  values.forEach((element, index): void => {
     if (element) {
       value.push({ $path: "education", $val: DistinctionOfSexLabel.sub[index] });
     }
   });
   return value;
 };
-const LabelFilters = (values: ReadonlyArray<boolean>) => {
+const LabelFilters = (values: readonly boolean[]): any => {
   const value: Array<{ $path: string; $val: string }> = [];
   if (values.every(checkBoolean)) {
     for (let i = 0; i < InstallationClassificationLabel.sub.length; i += 1) {
@@ -320,7 +320,7 @@ const FilterDrawer: React.FC<FilterDrawerProps> = (Props) => {
     includeScore: true,
     useExtendedSearch: true,
     distance: 0,
-    threshold: -0.1, //完全一致させるためマイナス値
+    threshold: -0.1, // 完全一致させるためマイナス値
     sortFn: (a: Fuse.FuseSortFunctionArg, b: Fuse.FuseSortFunctionArg) => a.idx - b.idx,
     keys: ["label", "education", "course1", "course2", "course3", "course4", "course5", "course6"],
   };

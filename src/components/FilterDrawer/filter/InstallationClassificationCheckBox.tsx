@@ -16,6 +16,7 @@ const InstallationClassificationCheckBox: React.FC = () => {
   const FClLInstallationClassification: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.installationClassification[Props.number]}
@@ -45,6 +46,7 @@ const InstallationClassificationCheckBox: React.FC = () => {
         <FormControlLabel
           control={
             <Checkbox
+              data-testid={InstallationClassificationLabel.course}
               checked={snap.installationClassification.every((value: boolean) => {
                 return value && snap.installationClassification[0];
               })}

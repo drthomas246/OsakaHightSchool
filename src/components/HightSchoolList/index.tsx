@@ -15,16 +15,22 @@ const HightSchoolItem = React.lazy(async () => await import("./HightSchoolItem")
 const HightSchoolList: React.FC = () => {
   const snap = useSnapshot<FilteredDataType>(filteredData);
   const buttonRef = useRef<HTMLButtonElement>(null);
-  const changeShow = () => {
+  const changeShow = (): void => {
     if (window.scrollY > PAGE_Y_OFFSET) {
-      buttonRef.current!.style.opacity = "1";
+      if (buttonRef.current != null) {
+        buttonRef.current.style.opacity = "1";
+      }
     } else {
-      buttonRef.current!.style.opacity = "0";
+      if (buttonRef.current != null) {
+        buttonRef.current.style.opacity = "0";
+      }
     }
   };
   useEffect(() => {
     window.addEventListener("scroll", changeShow);
-    return () => window.removeEventListener("scroll", changeShow);
+    return () => {
+      window.removeEventListener("scroll", changeShow);
+    };
   }, []);
   return (
     <>
