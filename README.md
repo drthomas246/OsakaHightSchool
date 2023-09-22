@@ -28,12 +28,16 @@
 ### 📦Requirement
 
 * ![Windows11](https://img.shields.io/badge/Windows11_Pro-22H2-blue?logo=windows11&logoColor=%230078D4)
-* ![Visual studio code](https://img.shields.io/badge/Visual_studio_code-1.82.0-blue?logo=visualstudiocode&logoColor=%23007ACC)
+* ![Visual studio code](https://img.shields.io/badge/Visual_studio_code-1.82.2-blue?logo=visualstudiocode&logoColor=%23007ACC)
 * ![PowerShell](https://img.shields.io/badge/PowerShell-7.3.6-blue?logo=powershell&logoColor=%235391FE)
-* ![Microsoft Edge](https://img.shields.io/badge/Microsoft_Edge-117.0.2045.31-blue?logo=microsoftedge&logoColor=%230078D7)
-* ![Node.js](https://img.shields.io/badge/Node.js-%5E18.17.1-blue?logo=nodedotjs&logoColor=%23339933)
+* ![Microsoft Edge](https://img.shields.io/badge/Microsoft_Edge-117.0.2045-blue?logo=microsoftedge&logoColor=%230078D7)
+* ![Node.js](https://img.shields.io/badge/Node.js-18.17.1-blue?logo=nodedotjs&logoColor=%23339933)
+* ![npm](https://img.shields.io/badge/npm-10.1.0-blue?logo=npm&logoColor=%23CB3837)
+* ![yarn](https://img.shields.io/badge/yarn-1.22.19-blue?logo=yarn&logoColor=%#2C8EBB)
 * ![React](https://img.shields.io/badge/React-%5E18.2.0-blue?logo=react&logoColor=%2361DAFB)
 * ![Typescript](https://img.shields.io/badge/Typescript-%5E5.2.2-blue?logo=typescript&logoColor=%233178C6)
+
+
 
 
 ### 🔧Development
