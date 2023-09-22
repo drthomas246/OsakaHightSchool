@@ -16,6 +16,7 @@ const DistinctionOfSexCheckBox: React.FC = () => {
   const FClLDistinctionOfSex: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.distinctionOfSex[Props.number]}
@@ -45,6 +46,7 @@ const DistinctionOfSexCheckBox: React.FC = () => {
         <FormControlLabel
           control={
             <Checkbox
+              data-testid={DistinctionOfSexLabel.course}
               checked={snap.distinctionOfSex.every((value: boolean) => {
                 return value && snap.distinctionOfSex[0];
               })}

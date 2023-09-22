@@ -47,7 +47,7 @@ const MenuDrawer: React.FC<MenuDrawerProps> = (Props) => {
   const closeTermOfUseDialog = (): void => {
     setTermOfUseDialog(false);
   };
-  const isCurrentLocationDisplayEnabled = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const isCurrentLocationDisplayEnabled = (event: React.ChangeEvent<HTMLInputElement>): void => {
     setCurrentLocationDisplay(event.target.checked);
     Props.handleMenuDrawerClose();
   };

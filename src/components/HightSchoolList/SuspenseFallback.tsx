@@ -17,7 +17,7 @@ const NavigationButtons: React.FC = () => {
   );
 };
 
-const SuspenseFallback = () => {
+const SuspenseFallback: React.FC = () => {
   return (
     <>
       <ListItem disablePadding secondaryAction={<NavigationButtons />}>
