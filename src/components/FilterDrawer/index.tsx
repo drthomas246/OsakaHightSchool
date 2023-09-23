@@ -66,7 +66,7 @@ import {
   WelfareRelatedLabel,
 } from "../CourseData";
 
-const CourseFilter = (value: string): any => {
+const CourseFilter = (value: string): FilterTypes[] => {
   return [
     {
       $path: "course1",
@@ -120,8 +120,8 @@ const CourseOfStudyCheckChecked = (values: SnapshotFilteringItemsType): boolean 
     return bool;
   });
 
-const CourseFilters = (values: SnapshotFilteringItemsType): any => {
-  const value: Array<{ $or: Array<{ $path: string; $val: string }> }> = [];
+const CourseFilters = (values: SnapshotFilteringItemsType): CourseFiltersTypes[] => {
+  const value: CourseFiltersTypes[] = [];
   if (CourseOfStudyCheckChecked(values)) {
     for (let i = 0; i < AgriculturalLabel.sub.length; i += 1) {
       value.push({ $or: CourseFilter(AgriculturalLabel.sub[i]) });
@@ -247,8 +247,8 @@ const CourseFilters = (values: SnapshotFilteringItemsType): any => {
   });
   return value;
 };
-const EducationFilters = (values: readonly boolean[]): any => {
-  const value: Array<{ $path: string; $val: string }> = [];
+const EducationFilters = (values: readonly boolean[]): FilterTypes[] => {
+  const value: FilterTypes[] = [];
   if (values.every(checkBoolean)) {
     for (let i = 0; i < DistinctionOfSexLabel.sub.length; i += 1) {
       value.push({ $path: "education", $val: DistinctionOfSexLabel.sub[i] });
@@ -262,8 +262,8 @@ const EducationFilters = (values: readonly boolean[]): any => {
   });
   return value;
 };
-const LabelFilters = (values: readonly boolean[]): any => {
-  const value: Array<{ $path: string; $val: string }> = [];
+const LabelFilters = (values: readonly boolean[]): FilterTypes[] => {
+  const value: FilterTypes[] = [];
   if (values.every(checkBoolean)) {
     for (let i = 0; i < InstallationClassificationLabel.sub.length; i += 1) {
       value.push({ $path: "label", $val: InstallationClassificationLabel.sub[i] });

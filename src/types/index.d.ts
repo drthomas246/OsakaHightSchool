@@ -1,6 +1,14 @@
 declare module "*.png";
 declare module "*.json";
 
+interface FilterTypes {
+  $path: string;
+  $val: string;
+}
+interface CourseFiltersTypes {
+  $or: FilterTypes[];
+}
+
 interface FormControlLabelProps {
   number: number;
   label: string;
