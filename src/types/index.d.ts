@@ -2,7 +2,7 @@ declare module "*.png";
 declare module "*.json";
 
 interface FilterTypes {
-  $path: string;
+  $path: string[];
   $val: string;
 }
 interface CourseFiltersTypes {

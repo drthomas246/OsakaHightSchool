@@ -8,10 +8,12 @@
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js",
     "lint": "eslint src/**/*.tsx",
-    "pr": "prettier --write src",
-    "test": "jest",
+    "prettier": "prettier --write src",
+    "test:jest": "jest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test:playwright": "playwright test -c playwright-ct.config.ts",
+    "test:show-report": "playwright show-report"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -29,6 +31,8 @@
     "@babel/preset-env": "^7.22.20",
     "@babel/preset-react": "^7.22.15",
     "@babel/preset-typescript": "^7.22.15",
+    "@playwright/experimental-ct-react": "^1.38.1",
+    "@playwright/test": "^1.38.1",
     "@storybook/addon-essentials": "7.4.3",
     "@storybook/addon-interactions": "7.4.3",
     "@storybook/addon-links": "7.4.3",
