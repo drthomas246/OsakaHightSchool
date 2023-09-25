@@ -12,8 +12,9 @@
     "test:jest": "jest",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test:playwright": "playwright test -c playwright-ct.config.ts",
-    "test:show-report": "playwright show-report"
+    "test:playwright-ct": "playwright test -c playwright-ct.config.ts",
+    "test:show-report": "playwright show-report",
+    "test:playwright": "playwright test"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
