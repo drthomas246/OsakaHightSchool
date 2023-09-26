@@ -16,7 +16,5 @@
     "plugins": [
         "react"
     ],
-    "rules": {
-        "@typescript-eslint/no-unnecessary-type-assertion": "off"
-    }
+    "rules": {}
 }

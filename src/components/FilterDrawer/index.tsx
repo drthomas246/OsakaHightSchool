@@ -69,27 +69,27 @@ import {
 const CourseFilter = (value: string): FilterTypes[] => {
   return [
     {
-      $path: "course1",
+      $path: ["course1"],
       $val: value,
     },
     {
-      $path: "course2",
+      $path: ["course2"],
       $val: value,
     },
     {
-      $path: "course3",
+      $path: ["course3"],
       $val: value,
     },
     {
-      $path: "course4",
+      $path: ["course4"],
       $val: value,
     },
     {
-      $path: "course5",
+      $path: ["course5"],
       $val: value,
     },
     {
-      $path: "course6",
+      $path: ["course6"],
       $val: value,
     },
   ];
@@ -251,13 +251,13 @@ const EducationFilters = (values: readonly boolean[]): FilterTypes[] => {
   const value: FilterTypes[] = [];
   if (values.every(checkBoolean)) {
     for (let i = 0; i < DistinctionOfSexLabel.sub.length; i += 1) {
-      value.push({ $path: "education", $val: DistinctionOfSexLabel.sub[i] });
+      value.push({ $path: ["education"], $val: DistinctionOfSexLabel.sub[i] });
     }
     return value;
   }
   values.forEach((element, index): void => {
     if (element) {
-      value.push({ $path: "education", $val: DistinctionOfSexLabel.sub[index] });
+      value.push({ $path: ["education"], $val: DistinctionOfSexLabel.sub[index] });
     }
   });
   return value;
@@ -266,13 +266,13 @@ const LabelFilters = (values: readonly boolean[]): FilterTypes[] => {
   const value: FilterTypes[] = [];
   if (values.every(checkBoolean)) {
     for (let i = 0; i < InstallationClassificationLabel.sub.length; i += 1) {
-      value.push({ $path: "label", $val: InstallationClassificationLabel.sub[i] });
+      value.push({ $path: ["label"], $val: InstallationClassificationLabel.sub[i] });
     }
     return value;
   }
   values.forEach((element, index) => {
     if (element) {
-      value.push({ $path: "label", $val: InstallationClassificationLabel.sub[index] });
+      value.push({ $path: ["label"], $val: InstallationClassificationLabel.sub[index] });
     }
   });
   return value;
