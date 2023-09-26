@@ -1,5 +1,4 @@
 # LICENSE
-## Business Source License 1.1 modification
 
 The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work.The Licensor may make an Additional Use Grant, above, permitting limited production use.
 
