@@ -16,7 +16,7 @@ const InformationDialog: React.FC = () => {
         掲載情報は上記Data Version記載時点のものです。
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px" }}>
-        掲載情報の間違いを発見された場合は、著作者までご連絡いただけるとありがたいです。
+        掲載情報の間違いを発見された場合は、管理者までご連絡いただけるとありがたいです。
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 20px 20px" }}>
         連絡先：

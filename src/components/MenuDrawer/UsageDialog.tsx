@@ -16,30 +16,30 @@ const UsageDialog: React.FC = () => {
       <DialogTitle variant="h4" sx={{ textAlign: "center" }}>
         使用方法
       </DialogTitle>
-      <Typography variant="h6" sx={{ margin: "0px 10px" }}>
+      <Typography variant="h6" sx={{ margin: "30px 10px 10px 10px" }}>
         【地図タブ】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 10px 30px" }}>
         各高校の場所を地図上に表示しています。マウスドラックで移動、マウススクロールで拡大縮小できます。
         <br />
         <img src={icon} className="sky size" />
-        をクリックするとその学校の簡易情報が表示されます。
+        をクリックするとその学校の【簡易情報】が表示されます。
       </Typography>
-      <Typography variant="h6" sx={{ margin: "0px 10px" }}>
+      <Typography variant="h6" sx={{ margin: "30px 10px 10px 10px" }}>
         【リストタブ】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
-        リスト形式で簡易情報をを表示します。
+        リスト形式で【簡易情報】をを表示します。
         <br />
-        簡易情報をクリックすると詳細情報を表示します。
+        【簡易情報】をクリックすると詳細情報を表示します。
       </Typography>
-      <Typography variant="h6" sx={{ margin: "0px 10px" }}>
+      <Typography variant="h6" sx={{ margin: "30px 10px 10px 10px" }}>
         【簡易情報】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
-        簡易情報には「高校名」「学科」「いくつかのアイコン」が表示されます。アイコンの説明は以下の通りです。
+      【簡易情報】には「高校名」「学科」「いくつかのアイコン」が表示されます。アイコンの説明は以下の通りです。
       </Typography>
-      <Typography variant="body1" sx={{ margin: "0px 10px" }}>
+      <Typography variant="body1" sx={{ margin: "0px 10px 0px 10px" }}>
         <ul>
           <li>
             <CallIcon />
@@ -55,11 +55,11 @@ const UsageDialog: React.FC = () => {
           </li>
         </ul>
       </Typography>
-      <Typography variant="h6" sx={{ margin: "0px 10px" }}>
+      <Typography variant="h6" sx={{ margin: "30px 10px 10px 10px" }}>
         【詳細情報】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
-        簡易情報をクリックすると詳細情報を表示します。
+      【簡易情報】をクリックすると詳細情報を表示します。
         <br />
         詳細情報には「高校名」「ふりがな」「住所」「電話番号」「サイト」「設置区分」「男女別」「学科」「最寄り駅」「いくつかのアイコン」が表示されます。アイコンの説明は簡易情報と同じです。
         <br />
@@ -67,13 +67,13 @@ const UsageDialog: React.FC = () => {
         <ArrowBackIcon />
         をクリックすると元の画面に戻ります。
       </Typography>
-      <Typography variant="h6" sx={{ margin: "0px 10px" }}>
+      <Typography variant="h6" sx={{ margin: "30px 10px 10px 10px" }}>
         【学校名検索】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
         右上の「学校名検索」は検索したい学校名(一部でもよみがなでも可)を入力して検索すると「マップタブ」「リストタブ」それぞれに表示されます。
       </Typography>
-      <Typography variant="h6" sx={{ margin: "0px 10px" }}>
+      <Typography variant="h6" sx={{ margin: "30px 10px 10px 10px" }}>
         【フィルター】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
@@ -83,7 +83,7 @@ const UsageDialog: React.FC = () => {
         <br />
         「設置区分」「男女校」「学科」別にフィルタをかけることができるので、ほしいフィルターをかけてください。
       </Typography>
-      <Typography variant="h6" sx={{ margin: "0px 10px" }}>
+      <Typography variant="h6" sx={{ margin: "30px 10px 10px 10px" }}>
         【設定メニュー】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
@@ -91,7 +91,7 @@ const UsageDialog: React.FC = () => {
         <MenuIcon />
         をクリックすると設定メニューを表示します。
       </Typography>
-      <Typography variant="body1" sx={{ margin: "0px 10px" }}>
+      <Typography variant="body1" sx={{ margin: "0px 10px 0px 10px" }}>
         <ul>
           <li>
             「現在地を表示」をチェックするとマップタグに
