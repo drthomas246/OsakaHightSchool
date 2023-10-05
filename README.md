@@ -12,9 +12,9 @@
 
 ### 💻DEMO
 
-|マップ表示|リスト表示|
+|地図タブ|リストタブ|
 |---|---|
-|![マップ表示](./public/images/map.png "マップ表示")|![リスト表示](./public/images/list.png "リスト表示")|
+|![地図タブ](./public/images/map.png "地図タブ")|![リストタブ](./public/images/list.png "リストタブ")|
 
 |詳細表示|フィルター機能|
 |---|---|
@@ -23,7 +23,8 @@
 
 ### 🌐App URL
 
-* [https://www.hobofoto.net/OsakaHightSchool/](https://www.hobofoto.net/OsakaHightSchool/)
+* [https://drthomas246.github.io/OsakaHightSchool/](https://drthomas246.github.io/OsakaHightSchool/)
+![QRコード](./public/images/QR.png "QRコード")
 
 ### 📦Requirement
 
