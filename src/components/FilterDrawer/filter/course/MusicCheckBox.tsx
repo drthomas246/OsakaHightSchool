@@ -17,6 +17,7 @@ const MusicCheckBox: React.FC = () => {
   const FClLMusic: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.music[Props.number]}
@@ -47,6 +48,7 @@ const MusicCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={MusicLabel.course}
                 checked={snap.music.every((value: boolean) => {
                   return value && snap.music[0];
                 })}

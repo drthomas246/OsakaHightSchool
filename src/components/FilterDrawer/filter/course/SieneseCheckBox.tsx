@@ -17,6 +17,7 @@ const SieneseCheckBox: React.FC = () => {
   const FClLSienese: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.sienese[Props.number]}
@@ -47,6 +48,7 @@ const SieneseCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={SieneseLabel.course}
                 checked={snap.sienese.every((value: boolean) => {
                   return value && snap.sienese[0];
                 })}

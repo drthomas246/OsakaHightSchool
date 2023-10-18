@@ -17,6 +17,7 @@ const PartTimeCheckBox: React.FC = () => {
   const FClLPartTime: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.partTime[Props.number]}
@@ -47,6 +48,7 @@ const PartTimeCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={PartTimeLabel.course}
                 checked={snap.partTime.every((value: boolean) => {
                   return value && snap.partTime[0];
                 })}

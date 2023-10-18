@@ -37,7 +37,7 @@ const UsageDialog: React.FC = () => {
         【簡易情報】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
-      【簡易情報】には「高校名」「学科」「いくつかのアイコン」が表示されます。アイコンの説明は以下の通りです。
+        【簡易情報】には「高校名」「学科」「いくつかのアイコン」が表示されます。アイコンの説明は以下の通りです。
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 10px" }}>
         <ul>
@@ -59,7 +59,7 @@ const UsageDialog: React.FC = () => {
         【詳細情報】
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 30px" }}>
-      【簡易情報】をクリックすると詳細情報を表示します。
+        【簡易情報】をクリックすると詳細情報を表示します。
         <br />
         詳細情報には「高校名」「ふりがな」「住所」「電話番号」「サイト」「設置区分」「男女別」「学科」「最寄り駅」「いくつかのアイコン」が表示されます。アイコンの説明は簡易情報と同じです。
         <br />

@@ -209,7 +209,8 @@ const TermOfUseDialog: React.FC = () => {
         </ol>
       </Typography>
       <Typography variant="body1" sx={{ margin: "10px 10px 20px 10px", textAlign: "right" }}>
-        ２０２３年９月１１日施行<br />
+        ２０２３年９月１１日施行
+        <br />
         ２０２３年１０月５日更新
       </Typography>
     </>

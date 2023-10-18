@@ -17,6 +17,7 @@ const HightLevelCheckBox: React.FC = () => {
   const FClLHightLevel: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.hightLevel[Props.number]}
@@ -47,6 +48,7 @@ const HightLevelCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={HightLevelLabel.course}
                 checked={snap.hightLevel.every((value: boolean) => {
                   return value && snap.hightLevel[0];
                 })}

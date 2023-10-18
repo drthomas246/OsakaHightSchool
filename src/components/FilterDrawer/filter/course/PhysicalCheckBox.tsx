@@ -17,6 +17,7 @@ const PhysicalCheckBox: React.FC = () => {
   const FClLPhysical: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.physical[Props.number]}
@@ -47,6 +48,7 @@ const PhysicalCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={PhysicalLabel.course}
                 checked={snap.physical.every((value: boolean) => {
                   return value && snap.physical[0];
                 })}

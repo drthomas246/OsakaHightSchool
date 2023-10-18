@@ -17,6 +17,7 @@ const WelfareRelatedCheckBox: React.FC = () => {
   const FClLWelfareRelated: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.welfareRelated[Props.number]}
@@ -47,6 +48,7 @@ const WelfareRelatedCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={WelfareRelatedLabel.course}
                 checked={snap.welfareRelated.every((value: boolean) => {
                   return value && snap.welfareRelated[0];
                 })}

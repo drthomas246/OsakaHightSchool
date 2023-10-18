@@ -17,6 +17,7 @@ const InternationalCheckBox: React.FC = () => {
   const FClLInternational: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.international[Props.number]}
@@ -47,6 +48,7 @@ const InternationalCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={InternationalLabel.course}
                 checked={snap.international.every((value: boolean) => {
                   return value && snap.international[0];
                 })}

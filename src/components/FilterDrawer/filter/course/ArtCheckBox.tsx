@@ -17,6 +17,7 @@ const ArtCheckBox: React.FC = () => {
   const FClLArt: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.art[Props.number]}
@@ -47,6 +48,7 @@ const ArtCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={ArtLabel.course}
                 checked={snap.art.every((value: boolean) => {
                   return value && snap.art[0];
                 })}

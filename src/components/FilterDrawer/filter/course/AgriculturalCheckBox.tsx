@@ -17,6 +17,7 @@ const AgriculturalCheckBox: React.FC = () => {
   const FClLAgricultural: React.FC<FormControlLabelProps> = (Props) => {
     return (
       <FormControlLabel
+        data-testid={Props.label}
         control={
           <Checkbox
             checked={snap.agricultural[Props.number]}
@@ -47,6 +48,7 @@ const AgriculturalCheckBox: React.FC = () => {
           <FormControlLabel
             control={
               <Checkbox
+                data-testid={AgriculturalLabel.course}
                 checked={snap.agricultural.every((value: boolean) => {
                   return value && snap.agricultural[0];
                 })}
