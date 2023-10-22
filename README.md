@@ -54,8 +54,8 @@
 * ![webpack-dev-server](https://img.shields.io/badge/webpack--dev--server-%5E4.15.1-blue?logo=webpack&logoColor=%238DD6F9)
 * ![ESLint](https://img.shields.io/badge/ESLint-%5E8.50.0-blue?logo=eslint&logoColor=%234B32C3)
 * ![Prettier](https://img.shields.io/badge/Prettier-%5E3.0.3-blue?logo=prettier&logoColor=%23F7B93E)
-* ![Playright](https://img.shields.io/badge/Playright-%5E1.38.1-blue?logo=playright&logoColor=%#2EAD33)
-* ![Playrightfor components](https://img.shields.io/badge/Playwright_for_components-%5E1.38.1-blue?logo=playright&logoColor=%#2EAD33)
+* ![Playright](https://img.shields.io/badge/Playright-%5E1.38.1-blue?logo=playwright&logoColor=%2EAD33)
+* ![Playrightfor components](https://img.shields.io/badge/Playwright_for_components-%5E1.38.1-blue?logo=playwright&logoColor=%2EAD33)
 * ![storybook](https://img.shields.io/badge/storybook-7.4.3-blue?logo=storybook&logoColor=%23FF4785)
 
 ### 📥Installation
