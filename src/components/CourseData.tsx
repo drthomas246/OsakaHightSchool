@@ -168,5 +168,5 @@ export const AllLabel = [
   PhysicalLabel,
   SieneseLabel,
   SpecialSchoolLabel,
-  WelfareRelatedLabel
-]
+  WelfareRelatedLabel,
+];

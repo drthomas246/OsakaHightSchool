@@ -20,34 +20,34 @@ import WelfareRelatedCheckBox from "../components/FilterDrawer/filter/course/Wel
 
 import { AllLabel } from "../components/CourseData";
 
-const Element =[
-  <DistinctionOfSexCheckBox key="0"/>,
-  <InstallationClassificationCheckBox key="1"/>,
-  <ArtCheckBox key="2"/>,
-  <AgriculturalCheckBox key="3"/>,
-  <BusinessCheckBox key="4"/>,
-  <EducationalCheckBox key="5"/>,
-  <GeneralDepartmentCheckBox key="6"/>,
-  <HightLevelCheckBox key="7"/>,
-  <IndustrialCheckBox key="8"/>,
-  <InternationalCheckBox key="9"/>,
-  <MusicCheckBox key="10"/>,
-  <NursingCheckBox key="11"/>,
-  <PartTimeCheckBox key="12"/>,
-  <PhysicalCheckBox key="13"/>,
-  <SieneseCheckBox key="14"/>,
-  <SpecialSchoolCheckBox key="15"/>,
-  <WelfareRelatedCheckBox key="16"/>
-]
+const Element = [
+  <DistinctionOfSexCheckBox key="0" />,
+  <InstallationClassificationCheckBox key="1" />,
+  <ArtCheckBox key="2" />,
+  <AgriculturalCheckBox key="3" />,
+  <BusinessCheckBox key="4" />,
+  <EducationalCheckBox key="5" />,
+  <GeneralDepartmentCheckBox key="6" />,
+  <HightLevelCheckBox key="7" />,
+  <IndustrialCheckBox key="8" />,
+  <InternationalCheckBox key="9" />,
+  <MusicCheckBox key="10" />,
+  <NursingCheckBox key="11" />,
+  <PartTimeCheckBox key="12" />,
+  <PhysicalCheckBox key="13" />,
+  <SieneseCheckBox key="14" />,
+  <SpecialSchoolCheckBox key="15" />,
+  <WelfareRelatedCheckBox key="16" />,
+];
 
 AllLabel.forEach((element, num) => {
   test(element.course, async ({ mount }) => {
     const component = await mount(Element[num]);
     await component.locator(".MuiAccordionSummary-root").click();
-    for (let i = 0; i <element.sub.length; i += 1) {
+    for (let i = 0; i < element.sub.length; i += 1) {
       await component.getByTestId(element.sub[i]).click();
     }
-    const reg = new RegExp("^" + element.course + "$")
+    const reg = new RegExp("^" + element.course + "$");
     await component.getByLabel(reg).setChecked(true);
   });
 });
