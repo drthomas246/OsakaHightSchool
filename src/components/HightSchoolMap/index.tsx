@@ -58,7 +58,7 @@ const HightSchoolMap: React.FC = () => {
       .catch(() => {});
   }, [snapCurrentLocationDisplay.enabled]);
   return (
-    <MapContainer zoom={10} center={new L.LatLng(position.latitude, position.longitude)}>
+    <MapContainer maxZoom={18} minZoom={9} zoom={10} center={new L.LatLng(position.latitude, position.longitude)}>
       <MapRecenter lat={position.latitude} lng={position.longitude} />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

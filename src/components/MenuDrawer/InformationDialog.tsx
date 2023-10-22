@@ -10,7 +10,7 @@ const InformationDialog: React.FC = () => {
         大阪周辺高校情報
       </DialogTitle>
       <Typography variant="body1" sx={{ margin: "0px 10px 10px 10px", textAlign: "center" }}>
-        System Version 1.0.1 (Data Version 2023/08/10)
+        System Version 1.0.2 (Data Version 2023/08/10)
       </Typography>
       <Typography variant="body1" sx={{ margin: "0px 10px" }}>
         掲載情報は上記Data Version記載時点のものです。
