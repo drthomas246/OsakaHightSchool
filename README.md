@@ -2,7 +2,7 @@
 
 <h2 style="text-align: center;">大阪周辺高校情報</h2>
 
-![build](https://img.shields.io/badge/Build-Pass-green) ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/drthomas246/OsakaHightSchool/master) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/drthomas246/OsakaHightSchool) ![GitHub Release Date](https://img.shields.io/github/release-date-pre/drthomas246/OsakaHightSchool) ![GitHub top language](https://img.shields.io/github/languages/top/drthomas246/OsakaHightSchool) ![license](https://img.shields.io/badge/license-BSL_1.1_modification-yellowgreen)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/drthomas246/OsakaHightSchool/playwright.yml) ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/drthomas246/OsakaHightSchool/master) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/drthomas246/OsakaHightSchool) ![GitHub Release Date](https://img.shields.io/github/release-date-pre/drthomas246/OsakaHightSchool) ![GitHub top language](https://img.shields.io/github/languages/top/drthomas246/OsakaHightSchool) ![license](https://img.shields.io/badge/license-BSL_1.1_modification-yellowgreen)
 
 
 
@@ -86,6 +86,22 @@ $ npm install
 * ![storybook](https://img.shields.io/badge/storybook-gray?logo=storybook&logoColor=%23FF4785)でのコンポーネント一覧は
 `yarn storybook`
 でサーバーが起動し、ブラウザで[http://localhost:6006](http://localhost:6006)にアクセスすると確認できます。
+
+### 📑Version infomation
+
+#### 1.0.2
+
+* 地図の最大スクロール、最小スクロールを設定
+* playwrightのテストを設置
+
+#### 1.0.1
+
+* Google Analyticsを導入
+* playwrightのテスト環境を設置
+
+#### 1.0.0
+
+* 初版リリース
 
 ### 🙍‍♂️Author
 
