@@ -57,6 +57,7 @@
 * ![Playright](https://img.shields.io/badge/Playright-%5E1.38.1-blue?logo=playwright&logoColor=%2EAD33)
 * ![Playrightfor components](https://img.shields.io/badge/Playwright_for_components-%5E1.38.1-blue?logo=playwright&logoColor=%2EAD33)
 * ![storybook](https://img.shields.io/badge/storybook-7.4.3-blue?logo=storybook&logoColor=%23FF4785)
+* csvtoJson
 
 ### 📥Installation
 
@@ -69,25 +70,32 @@ $ npm install
 ### 💬Usage
 
 * デモ起動は
-`$ yarn start`
+`$ npm start`
 を実行することで![webpack-dev-server](https://img.shields.io/badge/webpack--dev--server-gray?logo=webpack&logoColor=%238DD6F9)でサーバーが起動するので、ブラウザで[http://localhost:3000](http://localhost:3000)にアクセスするとデモを確認できます。（要インターネット）
 * ビルドは
-`yarn build`
+`npm build`
 でdistフォルダーに作成されます。
+* 高校データをJSONファイルで読み込んでいます。JSONデータはアプリには扱いやすいですが、人には扱いにくいので、人に扱いやすいCSVデータをJSONに変換しています。
+`npm csv2json`
+を実行することで![Node.js](https://img.shields.io/badge/Node.js-18.17.1-blue?logo=nodedotjs&logoColor=%23339933)を使って、hightSchoolData.csvをfile.jsonに変換しています。
 * ![Playright](https://img.shields.io/badge/Playright-gray?logo=playwright&logoColor=%2EAD33)でのテスティングは
 コンポーネント用
-`yarn test:playright-ct`
+`npm test:playright-ct`
 それ以外
-`yarn test:playright`
+`npm test:playright`
 で行なうことができます。
 結果ログは
-`yarn test:show-report`
+`npm test:show-report`
 で確認できます。
 * ![storybook](https://img.shields.io/badge/storybook-gray?logo=storybook&logoColor=%23FF4785)でのコンポーネント一覧は
-`yarn storybook`
+`npm storybook`
 でサーバーが起動し、ブラウザで[http://localhost:6006](http://localhost:6006)にアクセスすると確認できます。
 
 ### 📑Version infomation
+
+#### 1.1.0
+
+* highSchoolData.csvをfile.jsonに変更するためのcsv2jsonを実装
 
 #### 1.0.2
 
