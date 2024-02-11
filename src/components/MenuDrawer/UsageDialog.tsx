@@ -94,9 +94,17 @@ const UsageDialog: React.FC = () => {
       <Typography variant="body1" sx={{ margin: "0px 10px 0px 10px" }}>
         <ul>
           <li>
-            「現在地を表示」をチェックするとマップタグに
-            <img src={icon} className="red size" />
-            で現在地を表示します。
+            「現在地」
+            <ul>
+              <li>
+                「現在地を表示」をチェックするとマップタグに
+                <img src={icon} className="red size" />
+                で現在地を表示します。
+              </li>
+              <li>
+                「半径5kmと10kmの円を描く」をチェックするとマップタグに半径5kmと10kmの円が描かれます。
+              </li>
+            </ul>
           </li>
           <li>「使用方法」はこのページを開きます。</li>
           <li>「利用規約」はこのアプリの利用規約を表示します。</li>

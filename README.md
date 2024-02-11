@@ -92,6 +92,10 @@ $ npm install
 
 ### 📑Version infomation
 
+#### 1.2.0
+
+* 現在地表示時に半径5kmと10kmの円を描けるようにする
+
 #### 1.1.0
 
 * highSchoolData.csvをfile.jsonに変更するためのcsv2jsonを実装

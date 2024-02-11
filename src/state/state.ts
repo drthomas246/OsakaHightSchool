@@ -21,6 +21,7 @@ import {
 
 export const currentLocationDisplay = proxy<CurrentLocationDisplayType>({
   enabled: false,
+  circle: true,
 });
 export const lenderSetting = proxy<LenderSettingType>({
   showPanel: 0,
@@ -56,6 +57,10 @@ export const setShowPanel = (_: React.SyntheticEvent<Element, Event>, newValue: 
 
 export const setCurrentLocationDisplay = (bool: boolean): void => {
   currentLocationDisplay.enabled = bool;
+};
+
+export const setCurrentCircleDisplay = (bool: boolean): void => {
+  currentLocationDisplay.circle = bool;
 };
 
 export const setDistinctionOfSex = (bool: boolean[]): void => {

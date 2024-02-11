@@ -15,7 +15,9 @@ import InformationDialog from "./InformationDialog";
 import TermOfUseDialog from "./TermsOfUseDialog";
 import UsageDialog from "./UsageDialog";
 import PrivacyPolicyDialog from "./PrivacyPolicyDialog";
-import { currentLocationDisplay, setCurrentLocationDisplay } from "../../state/state";
+import { currentLocationDisplay, setCurrentLocationDisplay, setCurrentCircleDisplay } from "../../state/state";
+import { Collapse } from "@mui/material";
+import { ExpandLess, ExpandMore } from "@mui/icons-material";
 
 const MenuDrawer: React.FC<MenuDrawerProps> = (Props) => {
   const snap = useSnapshot<CurrentLocationDisplayType>(currentLocationDisplay);
@@ -23,6 +25,7 @@ const MenuDrawer: React.FC<MenuDrawerProps> = (Props) => {
   const [informationDialog, setInformationDialog] = useState(false);
   const [termOfUseDialog, setTermOfUseDialog] = useState(false);
   const [privacyPolicyDialog, setPrivacyPolicyDialog] = useState(false);
+  const [open, setOpen] = useState(false);
   const openUsageDialog = (): void => {
     setUsageDialog(true);
   };
@@ -51,6 +54,16 @@ const MenuDrawer: React.FC<MenuDrawerProps> = (Props) => {
     setCurrentLocationDisplay(event.target.checked);
     Props.handleMenuDrawerClose();
   };
+  const isCurrentCircleDisplayEnabled = (event: React.ChangeEvent<HTMLInputElement>): void => {
+    setCurrentCircleDisplay(event.target.checked);
+    if (snap.enabled === false){
+      setCurrentLocationDisplay(event.target.checked);
+    }
+    Props.handleMenuDrawerClose();
+  };
+  const handleOnClick= () => {
+    setOpen(!open);
+  }
   return (
     <Drawer
       anchor="left"
@@ -69,29 +82,33 @@ const MenuDrawer: React.FC<MenuDrawerProps> = (Props) => {
         <Typography variant="body1">設定メニュー</Typography>
       </DrawerHeader>
       <List>
-        <ListItem>
-          <FormControlLabel control={<Checkbox checked={snap.enabled} onChange={isCurrentLocationDisplayEnabled} />} label="現在地を表示" />
-        </ListItem>
-        <ListItem>
-          <ListItemButton onClick={openUsageDialog}>
-            <ListItemText primary="使用方法" />
-          </ListItemButton>
-        </ListItem>
-        <ListItem>
-          <ListItemButton onClick={openTermOfUseDialog}>
-            <ListItemText primary="利用規約" />
-          </ListItemButton>
-        </ListItem>
-        <ListItem>
-          <ListItemButton onClick={openPrivacyPolicyDialog}>
-            <ListItemText primary="プライバシーポリシー" />
-          </ListItemButton>
-        </ListItem>
-        <ListItem>
-          <ListItemButton onClick={openInformationDialog}>
-            <ListItemText primary="バージョン情報" />
-          </ListItemButton>
-        </ListItem>
+
+        <ListItemButton onClick={handleOnClick}>
+          <ListItemText primary="現在地" />
+          {open? <ExpandLess /> : <ExpandMore />}
+        </ListItemButton>
+        <Collapse in={open} timeout="auto" unmountOnExit>
+          <List component="div" disablePadding>
+            <ListItem>
+              <FormControlLabel control={<Checkbox checked={snap.enabled} onChange={isCurrentLocationDisplayEnabled} />} label="現在地を表示" />
+            </ListItem>
+            <ListItem>
+              <FormControlLabel control={<Checkbox checked={snap.circle} onChange={isCurrentCircleDisplayEnabled} />} label="半径5kmと10kmの円を描く" />
+            </ListItem>
+          </List>
+        </Collapse>
+        <ListItemButton onClick={openUsageDialog}>
+          <ListItemText primary="使用方法" />
+        </ListItemButton>
+        <ListItemButton onClick={openTermOfUseDialog}>
+          <ListItemText primary="利用規約" />
+        </ListItemButton>
+        <ListItemButton onClick={openPrivacyPolicyDialog}>
+          <ListItemText primary="プライバシーポリシー" />
+        </ListItemButton>
+        <ListItemButton onClick={openInformationDialog}>
+          <ListItemText primary="バージョン情報" />
+        </ListItemButton>
       </List>
       <Dialog open={usageDialog} onClose={closeUsageDialog} fullWidth={true} maxWidth="md">
         <UsageDialog />

@@ -31,6 +31,7 @@ interface HightSchoolData {
 
 interface CurrentLocationDisplayType {
   enabled: boolean;
+  circle: boolean;
 }
 
 interface LenderSettingType {

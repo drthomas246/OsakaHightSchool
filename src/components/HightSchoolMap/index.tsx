@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useState, useEffect } from "react";
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { Circle, MapContainer, TileLayer, useMap } from "react-leaflet";
 import L from "leaflet";
 import { useSnapshot } from "valtio";
 
@@ -79,7 +79,15 @@ const HightSchoolMap: React.FC = () => {
         />
       ))}
       {snapCurrentLocationDisplay.enabled && (
-        <Markers position={new L.LatLng(position.latitude, position.longitude)} color="red" name="現在地" location />
+        <>
+          <Markers position={new L.LatLng(position.latitude, position.longitude)} color="red" name="現在地" location />
+          {snapCurrentLocationDisplay.circle && (
+            <>
+              <Circle center={new L.LatLng(position.latitude, position.longitude)} radius={5000} pathOptions={{fillColor: "blue"}} />
+              <Circle center={new L.LatLng(position.latitude, position.longitude)} radius={10000} pathOptions={{fillColor: "green"}} />
+            </>
+          )}
+        </>
       )}
     </MapContainer>
   );
