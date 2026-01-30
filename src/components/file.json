@@ -2681,18 +2681,18 @@
   },
   {
     "id": "134",
-    "name": "懐風館高等学校",
-    "ruby": "かいふうかんこうとうがっこう",
-    "site": "https://www.osaka-c.ed.jp/kaifukan/",
-    "address": "大阪府羽曳野市大黒776",
+    "name": "春日丘高等学校",
+    "ruby": "かすががおかこうとうがっこう",
+    "site": "https://www.osaka-c.ed.jp/kasugaoka/",
+    "address": "大阪府茨木市春日2-1-2",
     "label": "公立",
     "education": "共学校",
-    "course": "普通科",
-    "tel": "072-957-0001",
-    "lat": "34.539342",
-    "lng": "135.622517",
-    "near": "近鉄南大阪線「駒ヶ谷」南1，1Ｋｍ・「古市」南東2，6Ｋｍ／近鉄長野線「喜志」北東2，9Ｋｍ／近鉄大阪線「河内国分」南南西3，8Ｋｍ",
-    "course1": "普通科",
+    "course": "文理探究科（学際領域に関する学科）",
+    "tel": "072-623-2061",
+    "lat": "34.818483",
+    "lng": "135.56093",
+    "near": "JR「茨木」北西約300ｍ／阪急京都線「茨木市」西約1400ｍ／大阪モノレール「宇野辺」北約1300ｍ",
+    "course1": "文理探究科",
     "course2": "",
     "course3": "",
     "course4": "",
@@ -2701,26 +2701,6 @@
   },
   {
     "id": "135",
-    "name": "春日丘高等学校",
-    "ruby": "かすががおかこうとうがっこう",
-    "site": "https://www.osaka-c.ed.jp/kasugaoka/",
-    "address": "大阪府茨木市春日2-1-2",
-    "label": "公立",
-    "education": "共学校",
-    "course": "普通科",
-    "tel": "072-623-2061",
-    "lat": "34.818483",
-    "lng": "135.56093",
-    "near": "JR「茨木」北西約300ｍ／阪急京都線「茨木市」西約1400ｍ／大阪モノレール「宇野辺」北約1300ｍ",
-    "course1": "普通科",
-    "course2": "",
-    "course3": "",
-    "course4": "",
-    "course5": "",
-    "course6": ""
-  },
-  {
-    "id": "136",
     "name": "交野高等学校",
     "ruby": "かたのこうとうがっこう",
     "site": "https://www2.osaka-c.ed.jp/katano/",
@@ -2740,7 +2720,7 @@
     "course6": ""
   },
   {
-    "id": "137",
+    "id": "136",
     "name": "門真なみはや高等学校",
     "ruby": "かどまなみはやこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kadomanamihaya/",
@@ -2760,27 +2740,7 @@
     "course6": ""
   },
   {
-    "id": "138",
-    "name": "門真西高等学校",
-    "ruby": "かどまにしこうとうがっこう",
-    "site": "https://www.osaka-c.ed.jp/kadomanishi/",
-    "address": "大阪府門真市柳田町29-1",
-    "label": "公立",
-    "education": "共学校",
-    "course": "普通科",
-    "tel": "06-6909-0318",
-    "lat": "34.728839",
-    "lng": "135.591044",
-    "near": "京阪「古川橋」南約1．5ｋｍ／京阪バス「試験場前」下車",
-    "course1": "普通科",
-    "course2": "",
-    "course3": "",
-    "course4": "",
-    "course5": "",
-    "course6": ""
-  },
-  {
-    "id": "139",
+    "id": "137",
     "name": "金岡高等学校",
     "ruby": "かなおかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kanaoka/",
@@ -2800,7 +2760,7 @@
     "course6": ""
   },
   {
-    "id": "140",
+    "id": "138",
     "name": "河南高等学校",
     "ruby": "かなんこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kanan/",
@@ -2820,7 +2780,7 @@
     "course6": ""
   },
   {
-    "id": "141",
+    "id": "139",
     "name": "岸和田高等学校",
     "ruby": "きしわだこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kishiwada/",
@@ -2840,7 +2800,7 @@
     "course6": ""
   },
   {
-    "id": "142",
+    "id": "140",
     "name": "岸和田市立産業高等学校",
     "ruby": "きしわだしりつさんぎょうこうとうがっこう",
     "site": "http://www.kishisan-h.ed.jp/",
@@ -2860,7 +2820,7 @@
     "course6": ""
   },
   {
-    "id": "143",
+    "id": "141",
     "name": "北かわち皐が丘高等学校",
     "ruby": "きたかわちさつきがおかこうとうがっこう",
     "site": "https://www2.osaka-c.ed.jp/kitakawachisatsukigaoka/",
@@ -2880,7 +2840,7 @@
     "course6": ""
   },
   {
-    "id": "144",
+    "id": "142",
     "name": "北千里高等学校",
     "ruby": "きたせんりこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kitasenri/",
@@ -2900,7 +2860,7 @@
     "course6": ""
   },
   {
-    "id": "145",
+    "id": "143",
     "name": "北野高等学校",
     "ruby": "きたのこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kitano/",
@@ -2920,7 +2880,7 @@
     "course6": ""
   },
   {
-    "id": "146",
+    "id": "144",
     "name": "教育センター附属高等学校",
     "ruby": "きょういくせんたーふぞくこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/partner/",
@@ -2940,7 +2900,7 @@
     "course6": ""
   },
   {
-    "id": "147",
+    "id": "145",
     "name": "柴島高等学校",
     "ruby": "くにじまこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kunijima/",
@@ -2960,7 +2920,7 @@
     "course6": ""
   },
   {
-    "id": "148",
+    "id": "146",
     "name": "久米田高等学校",
     "ruby": "くめだこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kumeda/",
@@ -2980,7 +2940,7 @@
     "course6": ""
   },
   {
-    "id": "149",
+    "id": "147",
     "name": "工芸高等学校",
     "ruby": "こうげいこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/kogei-t",
@@ -3000,7 +2960,7 @@
     "course6": "美術科"
   },
   {
-    "id": "150",
+    "id": "148",
     "name": "高津高等学校",
     "ruby": "こうづこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kozu/",
@@ -3020,7 +2980,7 @@
     "course6": ""
   },
   {
-    "id": "151",
+    "id": "149",
     "name": "港南造形高等学校",
     "ruby": "こうなんぞうけいこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/konanzokei/",
@@ -3040,7 +3000,7 @@
     "course6": ""
   },
   {
-    "id": "152",
+    "id": "150",
     "name": "香里丘高等学校",
     "ruby": "こうりがおかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/korigaoka/",
@@ -3060,7 +3020,7 @@
     "course6": ""
   },
   {
-    "id": "153",
+    "id": "151",
     "name": "金剛高等学校",
     "ruby": "こんごうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kongo/",
@@ -3080,7 +3040,7 @@
     "course6": ""
   },
   {
-    "id": "154",
+    "id": "152",
     "name": "堺工科高等学校",
     "ruby": "さかいこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sakai-t/",
@@ -3100,7 +3060,7 @@
     "course6": ""
   },
   {
-    "id": "155",
+    "id": "153",
     "name": "堺上高等学校",
     "ruby": "さかいじょうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sakaikami/",
@@ -3120,7 +3080,7 @@
     "course6": ""
   },
   {
-    "id": "156",
+    "id": "154",
     "name": "堺市立堺高等学校",
     "ruby": "さかいしりつさかいこうとうがっこう",
     "site": "http://www.sakai.ed.jp/sakai-hs/",
@@ -3140,7 +3100,7 @@
     "course6": ""
   },
   {
-    "id": "157",
+    "id": "155",
     "name": "堺西高等学校",
     "ruby": "さかいにしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sakainishi/",
@@ -3160,7 +3120,7 @@
     "course6": ""
   },
   {
-    "id": "158",
+    "id": "156",
     "name": "堺東高等学校",
     "ruby": "さかいひがしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sakaihigashi/",
@@ -3180,7 +3140,7 @@
     "course6": ""
   },
   {
-    "id": "159",
+    "id": "157",
     "name": "咲くやこの花高等学校",
     "ruby": "さくやこのはなこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/sakuyakonohana",
@@ -3200,7 +3160,7 @@
     "course6": ""
   },
   {
-    "id": "160",
+    "id": "158",
     "name": "桜塚高等学校",
     "ruby": "さくらづかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sakurazuka/",
@@ -3220,7 +3180,7 @@
     "course6": ""
   },
   {
-    "id": "161",
+    "id": "159",
     "name": "桜宮高等学校",
     "ruby": "さくらのみやこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/sakuranomiya",
@@ -3240,7 +3200,7 @@
     "course6": ""
   },
   {
-    "id": "162",
+    "id": "160",
     "name": "佐野工科高等学校",
     "ruby": "さのこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sano-t/",
@@ -3260,7 +3220,7 @@
     "course6": ""
   },
   {
-    "id": "163",
+    "id": "161",
     "name": "佐野高等学校",
     "ruby": "さのこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sano/",
@@ -3280,19 +3240,19 @@
     "course6": ""
   },
   {
-    "id": "164",
+    "id": "162",
     "name": "狭山高等学校",
     "ruby": "さやまこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sayama/",
     "address": "大阪府大阪狭山市半田4-1510",
     "label": "公立",
     "education": "共学校",
-    "course": "普通科",
+    "course": "文理探究科（地域社会に関する学科）",
     "tel": "072-366-8400",
     "lat": "34.49564",
     "lng": "135.550184",
     "near": "南海高野線「金剛」西1，1Ｋｍ",
-    "course1": "普通科",
+    "course1": "文理探究科",
     "course2": "",
     "course3": "",
     "course4": "",
@@ -3300,7 +3260,7 @@
     "course6": ""
   },
   {
-    "id": "165",
+    "id": "163",
     "name": "四條畷高等学校",
     "ruby": "しじょうなわてこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/shijonawate/",
@@ -3320,7 +3280,7 @@
     "course6": ""
   },
   {
-    "id": "166",
+    "id": "164",
     "name": "信太高等学校",
     "ruby": "しのだこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/shinoda/",
@@ -3340,7 +3300,7 @@
     "course6": ""
   },
   {
-    "id": "167",
+    "id": "165",
     "name": "渋谷高等学校",
     "ruby": "しぶやこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/shibutani/",
@@ -3360,7 +3320,7 @@
     "course6": ""
   },
   {
-    "id": "168",
+    "id": "166",
     "name": "清水谷高等学校",
     "ruby": "しみずたにこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/shimizudani/",
@@ -3380,7 +3340,7 @@
     "course6": ""
   },
   {
-    "id": "169",
+    "id": "167",
     "name": "吹田高等学校",
     "ruby": "すいたこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/suita/",
@@ -3400,7 +3360,7 @@
     "course6": ""
   },
   {
-    "id": "170",
+    "id": "168",
     "name": "吹田東高等学校",
     "ruby": "すいたひがしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/suitahigashi/",
@@ -3420,7 +3380,7 @@
     "course6": ""
   },
   {
-    "id": "171",
+    "id": "169",
     "name": "水都国際高等学校",
     "ruby": "すいとこくさいこうとうがっこう",
     "site": "https://osaka-city-ib.jp/",
@@ -3440,7 +3400,7 @@
     "course6": ""
   },
   {
-    "id": "172",
+    "id": "170",
     "name": "住吉高等学校",
     "ruby": "すみよしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sumiyoshi/",
@@ -3460,7 +3420,7 @@
     "course6": ""
   },
   {
-    "id": "173",
+    "id": "171",
     "name": "住吉商業高等学校",
     "ruby": "すみよししょうぎょうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/sumiyoshi-b",
@@ -3480,7 +3440,7 @@
     "course6": ""
   },
   {
-    "id": "174",
+    "id": "172",
     "name": "成城高等学校",
     "ruby": "せいじょうこうとうがこう",
     "site": "https://www.osaka-c.ed.jp/seijo-t/",
@@ -3500,7 +3460,7 @@
     "course6": ""
   },
   {
-    "id": "175",
+    "id": "173",
     "name": "成美高等学校",
     "ruby": "せいびこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/seibi/",
@@ -3520,7 +3480,7 @@
     "course6": ""
   },
   {
-    "id": "176",
+    "id": "174",
     "name": "摂津高等学校",
     "ruby": "せっつこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/settsu/",
@@ -3540,7 +3500,7 @@
     "course6": ""
   },
   {
-    "id": "177",
+    "id": "175",
     "name": "泉北高等学校",
     "ruby": "せんほくこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/semboku/",
@@ -3560,7 +3520,7 @@
     "course6": ""
   },
   {
-    "id": "178",
+    "id": "176",
     "name": "泉陽高等学校",
     "ruby": "せんようこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/senyo/",
@@ -3580,7 +3540,7 @@
     "course6": ""
   },
   {
-    "id": "179",
+    "id": "177",
     "name": "千里高等学校",
     "ruby": "せんりこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/senri/",
@@ -3600,7 +3560,7 @@
     "course6": ""
   },
   {
-    "id": "180",
+    "id": "178",
     "name": "千里青雲高等学校",
     "ruby": "せんりせいうんこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/senriseiun/",
@@ -3620,7 +3580,7 @@
     "course6": ""
   },
   {
-    "id": "181",
+    "id": "179",
     "name": "大冠高等学校",
     "ruby": "だいかんこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/ohkanmuri/",
@@ -3640,7 +3600,7 @@
     "course6": ""
   },
   {
-    "id": "182",
+    "id": "180",
     "name": "大正白稜高等学校",
     "ruby": "たいしょうはくりょうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/taishohakuryo/",
@@ -3660,7 +3620,7 @@
     "course6": ""
   },
   {
-    "id": "183",
+    "id": "181",
     "name": "高石高等学校",
     "ruby": "たかいしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/takaishi/",
@@ -3680,7 +3640,7 @@
     "course6": ""
   },
   {
-    "id": "184",
+    "id": "182",
     "name": "高槻北高等学校",
     "ruby": "たかつききたこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/takatsukikita/",
@@ -3700,7 +3660,7 @@
     "course6": ""
   },
   {
-    "id": "185",
+    "id": "183",
     "name": "中央高等学校",
     "ruby": "ちゅうおうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/chuo",
@@ -3720,7 +3680,7 @@
     "course6": ""
   },
   {
-    "id": "186",
+    "id": "184",
     "name": "槻の木高等学校",
     "ruby": "つきのきこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/tsukinoki/",
@@ -3740,7 +3700,7 @@
     "course6": ""
   },
   {
-    "id": "187",
+    "id": "185",
     "name": "鶴見商業高等学校",
     "ruby": "つるみしょうぎょうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/tsurumi-b/",
@@ -3760,7 +3720,7 @@
     "course6": ""
   },
   {
-    "id": "188",
+    "id": "186",
     "name": "天王寺高等学校",
     "ruby": "てんのうじこうとうがっこう",
     "site": "https://www2.osaka-c.ed.jp/tennoji/",
@@ -3780,7 +3740,7 @@
     "course6": ""
   },
   {
-    "id": "189",
+    "id": "187",
     "name": "豊島高等学校",
     "ruby": "としまこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/teshima/",
@@ -3800,7 +3760,7 @@
     "course6": ""
   },
   {
-    "id": "190",
+    "id": "188",
     "name": "刀根山高等学校",
     "ruby": "とねやまこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/toneyama/",
@@ -3820,7 +3780,7 @@
     "course6": ""
   },
   {
-    "id": "191",
+    "id": "189",
     "name": "登美丘高等学校",
     "ruby": "とみおかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/tomioka/",
@@ -3840,7 +3800,7 @@
     "course6": ""
   },
   {
-    "id": "192",
+    "id": "190",
     "name": "豊中高等学校",
     "ruby": "とよなかこうとうがっこう",
     "site": "https://www2.osaka-c.ed.jp/toyonaka/",
@@ -3860,7 +3820,7 @@
     "course6": ""
   },
   {
-    "id": "193",
+    "id": "191",
     "name": "豊中高等学校能勢分校",
     "ruby": "とよなかこうとうがっこうのせぶんこう",
     "site": "http://www.nose-highschool.ed.jp/bunkou/",
@@ -3880,7 +3840,7 @@
     "course6": ""
   },
   {
-    "id": "194",
+    "id": "192",
     "name": "富田林高等学校",
     "ruby": "とんだばやしこうとうがっこう",
     "site": "https://tonko.ed.jp/",
@@ -3900,7 +3860,7 @@
     "course6": ""
   },
   {
-    "id": "195",
+    "id": "193",
     "name": "長尾高等学校",
     "ruby": "ながおこうとうがっこう",
     "site": "https://www.nagaohighschool.com/",
@@ -3920,7 +3880,7 @@
     "course6": ""
   },
   {
-    "id": "196",
+    "id": "194",
     "name": "長野高等学校",
     "ruby": "ながのこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/nagano/",
@@ -3940,7 +3900,7 @@
     "course6": ""
   },
   {
-    "id": "197",
+    "id": "195",
     "name": "長吉高等学校",
     "ruby": "ながよしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/nagayoshi/",
@@ -3960,7 +3920,7 @@
     "course6": ""
   },
   {
-    "id": "198",
+    "id": "196",
     "name": "西成高等学校",
     "ruby": "にしなりこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/nishinari/",
@@ -3980,7 +3940,7 @@
     "course6": ""
   },
   {
-    "id": "199",
+    "id": "197",
     "name": "西寝屋川高等学校",
     "ruby": "にしねやがわこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/nishineyagawa/",
@@ -4000,7 +3960,7 @@
     "course6": ""
   },
   {
-    "id": "200",
+    "id": "198",
     "name": "寝屋川高等学校",
     "ruby": "ねやがわこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/neyagawa/",
@@ -4020,7 +3980,7 @@
     "course6": ""
   },
   {
-    "id": "201",
+    "id": "199",
     "name": "農芸高等学校",
     "ruby": "のうげいこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/nogei/",
@@ -4040,7 +4000,7 @@
     "course6": ""
   },
   {
-    "id": "202",
+    "id": "200",
     "name": "野崎高等学校",
     "ruby": "のざきこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/nozaki/",
@@ -4060,7 +4020,7 @@
     "course6": ""
   },
   {
-    "id": "203",
+    "id": "201",
     "name": "伯太高等学校",
     "ruby": "はかたこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hakata/",
@@ -4080,7 +4040,7 @@
     "course6": ""
   },
   {
-    "id": "204",
+    "id": "202",
     "name": "花園高等学校",
     "ruby": "はなぞのこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hanazono/",
@@ -4100,7 +4060,7 @@
     "course6": ""
   },
   {
-    "id": "205",
+    "id": "203",
     "name": "汎愛高等学校",
     "ruby": "はんあいこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/han-ai",
@@ -4120,7 +4080,7 @@
     "course6": ""
   },
   {
-    "id": "206",
+    "id": "204",
     "name": "阪南高等学校",
     "ruby": "はんなんこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hannan/",
@@ -4140,7 +4100,7 @@
     "course6": ""
   },
   {
-    "id": "207",
+    "id": "205",
     "name": "東大阪市立日新高等学校",
     "ruby": "ひがしおおさかしりつにっしんこうとうがっこう",
     "site": "https://school.higashiosaka-osk.ed.jp/nisshin-h/",
@@ -4160,7 +4120,7 @@
     "course6": ""
   },
   {
-    "id": "208",
+    "id": "206",
     "name": "東大阪みらい工科高校",
     "ruby": "ひがしおおさかみらいこうかこうとうがっこう",
     "site": "https://joto-tech.ed.jp/",
@@ -4180,7 +4140,7 @@
     "course6": ""
   },
   {
-    "id": "209",
+    "id": "207",
     "name": "東高等学校",
     "ruby": "ひがしこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/higashi",
@@ -4200,7 +4160,7 @@
     "course6": ""
   },
   {
-    "id": "210",
+    "id": "208",
     "name": "東住吉高等学校",
     "ruby": "ひがしすみよしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/higashisumiyoshi/",
@@ -4220,7 +4180,7 @@
     "course6": ""
   },
   {
-    "id": "211",
+    "id": "209",
     "name": "東住吉総合高等学校",
     "ruby": "ひがしすみよしそうごうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/higashisumiyoshi-t/",
@@ -4240,7 +4200,7 @@
     "course6": ""
   },
   {
-    "id": "212",
+    "id": "210",
     "name": "東百舌鳥高等学校",
     "ruby": "ひがしもずこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/higashimozu/",
@@ -4260,7 +4220,7 @@
     "course6": ""
   },
   {
-    "id": "213",
+    "id": "211",
     "name": "東淀川高等学校",
     "ruby": "ひがしよどがわこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/higashiyodogawa/",
@@ -4280,7 +4240,7 @@
     "course6": ""
   },
   {
-    "id": "214",
+    "id": "212",
     "name": "東淀工業高等学校",
     "ruby": "ひがしよどこうぎょうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/higashiyodo-t",
@@ -4300,7 +4260,7 @@
     "course6": ""
   },
   {
-    "id": "215",
+    "id": "213",
     "name": "日根野高等学校",
     "ruby": "ひねのこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hineno/",
@@ -4320,7 +4280,7 @@
     "course6": ""
   },
   {
-    "id": "216",
+    "id": "214",
     "name": "枚岡樟風高等学校",
     "ruby": "ひらおかしょうふうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hiraokashofu/",
@@ -4340,7 +4300,7 @@
     "course6": ""
   },
   {
-    "id": "217",
+    "id": "215",
     "name": "枚方高等学校",
     "ruby": "ひらかたこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hirakata/",
@@ -4360,7 +4320,7 @@
     "course6": ""
   },
   {
-    "id": "218",
+    "id": "216",
     "name": "枚方津田高等学校",
     "ruby": "ひらかたつだこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hirakatatsuda/",
@@ -4380,7 +4340,7 @@
     "course6": ""
   },
   {
-    "id": "219",
+    "id": "217",
     "name": "枚方なぎさ高等学校",
     "ruby": "ひらかたなぎさこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/hirakatanagisa/",
@@ -4400,7 +4360,7 @@
     "course6": ""
   },
   {
-    "id": "220",
+    "id": "218",
     "name": "福井高等学校",
     "ruby": "ふくいこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fukui/",
@@ -4420,7 +4380,7 @@
     "course6": ""
   },
   {
-    "id": "221",
+    "id": "219",
     "name": "福泉高等学校",
     "ruby": "ふくいずみこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fukuizumi/",
@@ -4440,7 +4400,7 @@
     "course6": ""
   },
   {
-    "id": "222",
+    "id": "220",
     "name": "藤井寺工科高等学校",
     "ruby": "ふじいでらこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fujiidera-t/",
@@ -4460,7 +4420,7 @@
     "course6": ""
   },
   {
-    "id": "223",
+    "id": "221",
     "name": "藤井寺高等学校",
     "ruby": "ふじいでらこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fujiidera/",
@@ -4480,7 +4440,7 @@
     "course6": ""
   },
   {
-    "id": "224",
+    "id": "222",
     "name": "布施北高等学校",
     "ruby": "ふせきたこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fusekita/",
@@ -4500,7 +4460,7 @@
     "course6": ""
   },
   {
-    "id": "225",
+    "id": "223",
     "name": "布施高等学校",
     "ruby": "ふせこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fuse/",
@@ -4520,7 +4480,7 @@
     "course6": ""
   },
   {
-    "id": "226",
+    "id": "224",
     "name": "北摂つばさ高等学校",
     "ruby": "ほくせつつばさこうとうがっこう",
     "site": "https://www2.osaka-c.ed.jp/hokusetsutsubasa/index.html",
@@ -4540,7 +4500,7 @@
     "course6": ""
   },
   {
-    "id": "227",
+    "id": "225",
     "name": "牧野高等学校",
     "ruby": "まきのこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/makino/",
@@ -4560,7 +4520,7 @@
     "course6": ""
   },
   {
-    "id": "228",
+    "id": "226",
     "name": "松原高等学校",
     "ruby": "まつばらこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/matsubara/",
@@ -4580,7 +4540,7 @@
     "course6": ""
   },
   {
-    "id": "229",
+    "id": "227",
     "name": "三国丘高等学校",
     "ruby": "みくにがおかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/mikunigaoka/",
@@ -4600,7 +4560,7 @@
     "course6": ""
   },
   {
-    "id": "230",
+    "id": "228",
     "name": "岬高等学校",
     "ruby": "みさきこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/misaki/",
@@ -4620,7 +4580,7 @@
     "course6": ""
   },
   {
-    "id": "231",
+    "id": "229",
     "name": "三島高等学校",
     "ruby": "みしまこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/mishima/",
@@ -4640,7 +4600,7 @@
     "course6": ""
   },
   {
-    "id": "232",
+    "id": "230",
     "name": "みどり清朋高等学校",
     "ruby": "みどりせいほうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/midoriseiho/",
@@ -4660,7 +4620,7 @@
     "course6": ""
   },
   {
-    "id": "233",
+    "id": "231",
     "name": "港高等学校",
     "ruby": "みなとこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/minato/",
@@ -4680,7 +4640,7 @@
     "course6": ""
   },
   {
-    "id": "234",
+    "id": "232",
     "name": "箕面高等学校",
     "ruby": "みのおこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/minoo/",
@@ -4700,7 +4660,7 @@
     "course6": ""
   },
   {
-    "id": "235",
+    "id": "233",
     "name": "箕面東高等学校",
     "ruby": "みのおひがしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/minoohigashi/",
@@ -4720,7 +4680,7 @@
     "course6": ""
   },
   {
-    "id": "236",
+    "id": "234",
     "name": "都島工業高等学校",
     "ruby": "みやこじまこうぎょうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/miyakojima-t",
@@ -4740,7 +4700,7 @@
     "course6": "理数工学科"
   },
   {
-    "id": "237",
+    "id": "235",
     "name": "桃谷高等学校",
     "ruby": "ももだにこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/momodani/",
@@ -4760,7 +4720,7 @@
     "course6": ""
   },
   {
-    "id": "238",
+    "id": "236",
     "name": "守口東高等学校",
     "ruby": "もりぐちひがしこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/moriguchihigashi/",
@@ -4780,7 +4740,7 @@
     "course6": ""
   },
   {
-    "id": "239",
+    "id": "237",
     "name": "八尾北高等学校",
     "ruby": "やおきたこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yaokita/",
@@ -4800,7 +4760,7 @@
     "course6": ""
   },
   {
-    "id": "240",
+    "id": "238",
     "name": "八尾高等学校",
     "ruby": "やおこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yao/",
@@ -4820,7 +4780,7 @@
     "course6": ""
   },
   {
-    "id": "241",
+    "id": "239",
     "name": "八尾翠翔高等学校",
     "ruby": "やおすいしょうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yaosuisho/",
@@ -4840,7 +4800,7 @@
     "course6": ""
   },
   {
-    "id": "242",
+    "id": "240",
     "name": "山田高等学校",
     "ruby": "やまだこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yamada/",
@@ -4860,7 +4820,7 @@
     "course6": ""
   },
   {
-    "id": "243",
+    "id": "241",
     "name": "山本高等学校",
     "ruby": "やまもとこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yamamoto/",
@@ -4880,7 +4840,7 @@
     "course6": ""
   },
   {
-    "id": "244",
+    "id": "242",
     "name": "夕陽丘高等学校",
     "ruby": "ゆうひがおかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yuhigaoka/",
@@ -4900,7 +4860,7 @@
     "course6": ""
   },
   {
-    "id": "245",
+    "id": "243",
     "name": "淀川工科高等学校",
     "ruby": "よどがわこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yodogawa-t/",
@@ -4920,7 +4880,7 @@
     "course6": ""
   },
   {
-    "id": "246",
+    "id": "244",
     "name": "淀川清流高等学校",
     "ruby": "よどがわせいりゅうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/yodogawaseiryu/",
@@ -4940,7 +4900,7 @@
     "course6": ""
   },
   {
-    "id": "247",
+    "id": "245",
     "name": "淀商業高等学校",
     "ruby": "よどしょうぎょうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/yodo-b",
@@ -4960,7 +4920,7 @@
     "course6": ""
   },
   {
-    "id": "248",
+    "id": "246",
     "name": "緑風冠高等学校",
     "ruby": "りょくふうかんこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/ryokufukan/",
@@ -4980,7 +4940,7 @@
     "course6": ""
   },
   {
-    "id": "249",
+    "id": "247",
     "name": "りんくう翔南高等学校",
     "ruby": "りんくうしょうなんこうとうがっこう",
     "site": "https://www2.osaka-c.ed.jp/rinkushonan/",
@@ -5000,7 +4960,7 @@
     "course6": ""
   },
   {
-    "id": "250",
+    "id": "248",
     "name": "和泉総合高等学校",
     "ruby": "いずみそうごうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/izumi-t/",
@@ -5020,7 +4980,7 @@
     "course6": ""
   },
   {
-    "id": "251",
+    "id": "249",
     "name": "茨木工科高等学校",
     "ruby": "いばらきこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/ibaraki-t/",
@@ -5040,7 +5000,7 @@
     "course6": ""
   },
   {
-    "id": "252",
+    "id": "250",
     "name": "今宮工科高等学校",
     "ruby": "いまみやこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/imamiya-t/",
@@ -5060,7 +5020,7 @@
     "course6": ""
   },
   {
-    "id": "253",
+    "id": "251",
     "name": "大手前高等学校",
     "ruby": "おおてまえこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/otemae/",
@@ -5080,7 +5040,7 @@
     "course6": ""
   },
   {
-    "id": "254",
+    "id": "252",
     "name": "春日丘高等学校",
     "ruby": "かすがおかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/kasugaoka/",
@@ -5100,7 +5060,7 @@
     "course6": ""
   },
   {
-    "id": "255",
+    "id": "253",
     "name": "岸和田市立産業高等学校",
     "ruby": "きしわだしりつさんぎょうこうとうがっこう",
     "site": "http://www.kishisan-h.ed.jp/",
@@ -5120,7 +5080,7 @@
     "course6": ""
   },
   {
-    "id": "256",
+    "id": "254",
     "name": "工芸高等学校",
     "ruby": "こうげいこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/kogei-t-p",
@@ -5140,7 +5100,7 @@
     "course6": ""
   },
   {
-    "id": "257",
+    "id": "255",
     "name": "堺工科高等学校",
     "ruby": "さかいこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sakai-t/",
@@ -5160,7 +5120,7 @@
     "course6": ""
   },
   {
-    "id": "258",
+    "id": "256",
     "name": "堺公立堺高等学校",
     "ruby": "さかいしりつさかいこうとうがっこう",
     "site": "http://www.sakai.ed.jp/sakai-hs/",
@@ -5180,7 +5140,7 @@
     "course6": ""
   },
   {
-    "id": "259",
+    "id": "257",
     "name": "桜塚高等学校",
     "ruby": "さくらづかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sakurazuka/",
@@ -5200,7 +5160,7 @@
     "course6": ""
   },
   {
-    "id": "260",
+    "id": "258",
     "name": "佐野工科高等学校",
     "ruby": "さのこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/sano-t/",
@@ -5220,7 +5180,7 @@
     "course6": ""
   },
   {
-    "id": "261",
+    "id": "259",
     "name": "成城高等学校",
     "ruby": "せいじょうこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/seijo-t/",
@@ -5240,7 +5200,7 @@
     "course6": ""
   },
   {
-    "id": "262",
+    "id": "260",
     "name": "第二工芸高等学校",
     "ruby": "だいにこうげいこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/kogei-t-p",
@@ -5260,7 +5220,7 @@
     "course6": ""
   },
   {
-    "id": "263",
+    "id": "261",
     "name": "寝屋川高等学校",
     "ruby": "ねやがわこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/neyagawa/",
@@ -5280,7 +5240,7 @@
     "course6": ""
   },
   {
-    "id": "264",
+    "id": "262",
     "name": "藤井寺工科高等学校",
     "ruby": "ふじいでらこうかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fujiidera-t/",
@@ -5300,7 +5260,7 @@
     "course6": ""
   },
   {
-    "id": "265",
+    "id": "263",
     "name": "布施高等学校",
     "ruby": "ふせこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/fuse/",
@@ -5320,7 +5280,7 @@
     "course6": ""
   },
   {
-    "id": "266",
+    "id": "264",
     "name": "三国丘高等学校",
     "ruby": "みくにがおかこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/mikunigaoka/",
@@ -5340,7 +5300,7 @@
     "course6": ""
   },
   {
-    "id": "267",
+    "id": "265",
     "name": "都島工業高等学校",
     "ruby": "みやこじまこうぎょうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/miyakojima-t-p",
@@ -5360,7 +5320,7 @@
     "course6": ""
   },
   {
-    "id": "268",
+    "id": "266",
     "name": "都島第二工業高等学校",
     "ruby": "みやこじまだいにこうぎょうこうとうがっこう",
     "site": "https://www3.osaka-c.ed.jp/miyakojima-t-p",
@@ -5380,7 +5340,7 @@
     "course6": ""
   },
   {
-    "id": "269",
+    "id": "267",
     "name": "桃谷高等学校",
     "ruby": "ももだにこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/momodani/",
@@ -5400,7 +5360,7 @@
     "course6": ""
   },
   {
-    "id": "270",
+    "id": "268",
     "name": "桃谷高等学校",
     "ruby": "ももだにこうとうがっこう",
     "site": "https://www.osaka-c.ed.jp/momodani/",
@@ -5420,7 +5380,7 @@
     "course6": ""
   },
   {
-    "id": "271",
+    "id": "269",
     "name": "生野支援学校",
     "ruby": "いくのしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/ikuno-s/",
@@ -5440,7 +5400,7 @@
     "course6": ""
   },
   {
-    "id": "272",
+    "id": "270",
     "name": "生野聴覚支援学校",
     "ruby": "いくのちょうかくしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/ikuno-r/",
@@ -5460,7 +5420,7 @@
     "course6": ""
   },
   {
-    "id": "273",
+    "id": "271",
     "name": "和泉支援学校",
     "ruby": "いずみしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/izumi-y/",
@@ -5480,7 +5440,7 @@
     "course6": ""
   },
   {
-    "id": "274",
+    "id": "272",
     "name": "茨木支援学校",
     "ruby": "いばらきしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/ibaraki-y/",
@@ -5500,7 +5460,7 @@
     "course6": ""
   },
   {
-    "id": "275",
+    "id": "273",
     "name": "大阪北視覚支援学校",
     "ruby": "おおさかきたしかくしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/osakakita-s-s/",
@@ -5520,7 +5480,7 @@
     "course6": ""
   },
   {
-    "id": "276",
+    "id": "274",
     "name": "交野支援学校",
     "ruby": "かたのしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/katano-y/",
@@ -5540,7 +5500,7 @@
     "course6": ""
   },
   {
-    "id": "277",
+    "id": "275",
     "name": "交野支援学校四條畷校",
     "ruby": "かたのしえんがっこうしじょうなわてこう",
     "site": "https://www.osaka-c.ed.jp/katano-sb/",
@@ -5560,7 +5520,7 @@
     "course6": ""
   },
   {
-    "id": "278",
+    "id": "276",
     "name": "岸和田支援学校",
     "ruby": "きしわだしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/kishiwada-y/",
@@ -5580,7 +5540,7 @@
     "course6": ""
   },
   {
-    "id": "279",
+    "id": "277",
     "name": "光陽支援学校",
     "ruby": "こうようしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/koyo-s/",
@@ -5600,7 +5560,7 @@
     "course6": ""
   },
   {
-    "id": "280",
+    "id": "278",
     "name": "堺支援学校",
     "ruby": "さかいしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/sakai-y/",
@@ -5620,7 +5580,7 @@
     "course6": ""
   },
   {
-    "id": "281",
+    "id": "279",
     "name": "堺支援学校大手前分校",
     "ruby": "さかいしえんがっこうおおてぜんぶんこう",
     "site": "https://www.osaka-c.ed.jp/sakai-yb/",
@@ -5640,7 +5600,7 @@
     "course6": ""
   },
   {
-    "id": "282",
+    "id": "280",
     "name": "堺聴覚支援学校",
     "ruby": "さかいちょうかくしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/sakai-r/",
@@ -5660,7 +5620,7 @@
     "course6": ""
   },
   {
-    "id": "283",
+    "id": "281",
     "name": "佐野支援学校",
     "ruby": "さのしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/sano-y/",
@@ -5680,7 +5640,7 @@
     "course6": ""
   },
   {
-    "id": "284",
+    "id": "282",
     "name": "思斉支援学校",
     "ruby": "しせいしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/shisei-s/",
@@ -5700,7 +5660,7 @@
     "course6": ""
   },
   {
-    "id": "285",
+    "id": "283",
     "name": "吹田支援学校",
     "ruby": "すいたしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/suita-y/",
@@ -5720,7 +5680,7 @@
     "course6": ""
   },
   {
-    "id": "286",
+    "id": "284",
     "name": "すながわ高等支援学校",
     "ruby": "すながわこうとうしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/sunagawa-ks/",
@@ -5740,7 +5700,7 @@
     "course6": ""
   },
   {
-    "id": "287",
+    "id": "285",
     "name": "住之江支援学校",
     "ruby": "すみのえしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/suminoe-s/",
@@ -5760,7 +5720,7 @@
     "course6": ""
   },
   {
-    "id": "288",
+    "id": "286",
     "name": "摂津支援学校",
     "ruby": "せっつしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/settsu-s/",
@@ -5780,7 +5740,7 @@
     "course6": ""
   },
   {
-    "id": "289",
+    "id": "287",
     "name": "泉南支援学校",
     "ruby": "せんなんしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/sennan-s/",
@@ -5800,7 +5760,7 @@
     "course6": ""
   },
   {
-    "id": "290",
+    "id": "288",
     "name": "泉北高等支援学校",
     "ruby": "せんほくこうとうしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/semboku-y/",
@@ -5820,7 +5780,7 @@
     "course6": ""
   },
   {
-    "id": "291",
+    "id": "289",
     "name": "だいせん聴覚高等支援学校",
     "ruby": "だいせんちょうかくこうとうしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/daisen-hr/",
@@ -5840,7 +5800,7 @@
     "course6": ""
   },
   {
-    "id": "292",
+    "id": "290",
     "name": "大阪南視覚支援学校",
     "ruby": "だいはんなんしかくしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/mou/",
@@ -5860,7 +5820,7 @@
     "course6": ""
   },
   {
-    "id": "293",
+    "id": "291",
     "name": "高槻支援学校",
     "ruby": "たかつきしえんがっこう",
     "site": "https://www2.osaka-c.ed.jp/takatsuki-y/",
@@ -5880,7 +5840,7 @@
     "course6": ""
   },
   {
-    "id": "294",
+    "id": "292",
     "name": "たまがわ高等支援学校",
     "ruby": "たまがわこうとうしえんがっこう",
     "site": "https://www2.osaka-c.ed.jp/tamagawa-ks/",
@@ -5900,7 +5860,7 @@
     "course6": ""
   },
   {
-    "id": "295",
+    "id": "293",
     "name": "中央聴覚支援学校",
     "ruby": "ちゅうおうちょうかくしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/osakachuo-c-s/",
@@ -5920,7 +5880,7 @@
     "course6": ""
   },
   {
-    "id": "296",
+    "id": "294",
     "name": "刀根山支援学校",
     "ruby": "とねやましえんがっこう",
     "site": "https://www.osaka-c.ed.jp/toneyama-y/",
@@ -5940,7 +5900,7 @@
     "course6": ""
   },
   {
-    "id": "297",
+    "id": "295",
     "name": "豊中支援学校",
     "ruby": "とよなかしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/toyonaka-y/",
@@ -5960,7 +5920,7 @@
     "course6": ""
   },
   {
-    "id": "298",
+    "id": "296",
     "name": "とりかい高等支援学校",
     "ruby": "とりかいこうとうしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/torikai-ks/",
@@ -5980,7 +5940,7 @@
     "course6": ""
   },
   {
-    "id": "299",
+    "id": "297",
     "name": "富田林支援学校",
     "ruby": "とんだばやししえんがっこう",
     "site": "https://www.osaka-c.ed.jp/tondabayashi-y/",
@@ -6000,7 +5960,7 @@
     "course6": ""
   },
   {
-    "id": "300",
+    "id": "298",
     "name": "中津支援学校",
     "ruby": "なかつしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/nakatsu-y/",
@@ -6020,7 +5980,7 @@
     "course6": ""
   },
   {
-    "id": "301",
+    "id": "299",
     "name": "なにわ高等支援学校",
     "ruby": "なにわこうとうしえんがっこう",
     "site": "https://www2.osaka-c.ed.jp/naniwa-ks/",
@@ -6040,7 +6000,7 @@
     "course6": ""
   },
   {
-    "id": "302",
+    "id": "300",
     "name": "難波支援学校",
     "ruby": "なんばしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/namba-s/",
@@ -6060,7 +6020,7 @@
     "course6": ""
   },
   {
-    "id": "303",
+    "id": "301",
     "name": "西浦支援学校",
     "ruby": "にしうらしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/nishiura-s/",
@@ -6080,7 +6040,7 @@
     "course6": ""
   },
   {
-    "id": "304",
+    "id": "302",
     "name": "西淀川支援学校",
     "ruby": "にしよどがわしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/nishiyodogawa-s/",
@@ -6100,7 +6060,7 @@
     "course6": ""
   },
   {
-    "id": "305",
+    "id": "303",
     "name": "寝屋川支援学校",
     "ruby": "ねやがわしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/neyagawa-y/",
@@ -6120,7 +6080,7 @@
     "course6": ""
   },
   {
-    "id": "306",
+    "id": "304",
     "name": "羽曳野支援学校",
     "ruby": "はびきのしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/habikino-y/",
@@ -6140,7 +6100,7 @@
     "course6": ""
   },
   {
-    "id": "307",
+    "id": "305",
     "name": "東大阪支援学校",
     "ruby": "ひがしおおさかしえんがっこう",
     "site": "https://www2.osaka-c.ed.jp/higashiosaka-y/",
@@ -6160,7 +6120,7 @@
     "course6": ""
   },
   {
-    "id": "308",
+    "id": "306",
     "name": "東住吉支援学校",
     "ruby": "ひがしすみよししえんがっこう",
     "site": "https://www.osaka-c.ed.jp/higashisumiyoshi-s/",
@@ -6180,7 +6140,7 @@
     "course6": ""
   },
   {
-    "id": "309",
+    "id": "307",
     "name": "東淀川支援学校",
     "ruby": "ひがしよどがわしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/higashiyodogawa-s/",
@@ -6200,7 +6160,7 @@
     "course6": ""
   },
   {
-    "id": "310",
+    "id": "308",
     "name": "枚方支援学校",
     "ruby": "ひらかたしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/hirakata-s/",
@@ -6220,7 +6180,7 @@
     "course6": ""
   },
   {
-    "id": "311",
+    "id": "309",
     "name": "平野支援学校",
     "ruby": "ひらのしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/hirano-s/",
@@ -6240,7 +6200,7 @@
     "course6": ""
   },
   {
-    "id": "312",
+    "id": "310",
     "name": "藤井寺支援学校",
     "ruby": "ふじいでらしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/fujiidera-y/",
@@ -6260,7 +6220,7 @@
     "course6": ""
   },
   {
-    "id": "313",
+    "id": "311",
     "name": "箕面支援学校",
     "ruby": "みのおしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/minoo-y/",
@@ -6280,7 +6240,7 @@
     "course6": ""
   },
   {
-    "id": "314",
+    "id": "312",
     "name": "むらの高等支援学校",
     "ruby": "むらのこうとうしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/murano-ks/",
@@ -6300,7 +6260,7 @@
     "course6": ""
   },
   {
-    "id": "315",
+    "id": "313",
     "name": "守口支援学校",
     "ruby": "もりぐちしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/moriguchi-y/",
@@ -6320,7 +6280,7 @@
     "course6": ""
   },
   {
-    "id": "316",
+    "id": "314",
     "name": "八尾支援学校",
     "ruby": "やおしえんがっこう",
     "site": "https://www.osaka-c.ed.jp/yao-y/",
@@ -6340,7 +6300,7 @@
     "course6": ""
   },
   {
-    "id": "317",
+    "id": "315",
     "name": "芦屋学園高等学校",
     "ruby": "あしやがくえんこうとうがっこう",
     "site": "http://www.ashiyajs.jp/",
@@ -6360,7 +6320,7 @@
     "course6": ""
   },
   {
-    "id": "318",
+    "id": "316",
     "name": "関西学院高等部",
     "ruby": "かんせいがくいんこうとうぶ",
     "site": "http://www.kwansei.ac.jp/hs/",
@@ -6380,7 +6340,7 @@
     "course6": ""
   },
   {
-    "id": "319",
+    "id": "317",
     "name": "甲子園学院高等学校",
     "ruby": "こうしえんがくいんこうとうがっこう",
     "site": "http://www.koshiengakuin-h.ed.jp/index.html",
@@ -6400,7 +6360,7 @@
     "course6": ""
   },
   {
-    "id": "320",
+    "id": "318",
     "name": "神戸第一高等学校",
     "ruby": "こうべだいいちこうとうがっこう",
     "site": "http://www.kobedai1.ed.jp/",
@@ -6420,7 +6380,7 @@
     "course6": ""
   },
   {
-    "id": "321",
+    "id": "319",
     "name": "甲陽学院高等学校",
     "ruby": "こうようがくいんこうとうがっこう",
     "site": "http://www.koyo.ac.jp/",
@@ -6440,7 +6400,7 @@
     "course6": ""
   },
   {
-    "id": "322",
+    "id": "320",
     "name": "三田松聖高等学校",
     "ruby": "さんだしょうせいこうとうがっこう",
     "site": "http://www.sandashosei.net/",
@@ -6460,7 +6420,7 @@
     "course6": ""
   },
   {
-    "id": "323",
+    "id": "321",
     "name": "夙川学院高等学校",
     "ruby": "しゅくがわがくいんこうとうがっこう",
     "site": "https://www.sumashuku.jp/",
@@ -6480,7 +6440,7 @@
     "course6": ""
   },
   {
-    "id": "324",
+    "id": "322",
     "name": "神港学園神港高等学校",
     "ruby": "しんこうがくえんこうとうがっこう",
     "site": "http://www.shinko.ed.jp/",
@@ -6500,7 +6460,7 @@
     "course6": ""
   },
   {
-    "id": "325",
+    "id": "323",
     "name": "園田学園高等学校",
     "ruby": "そのだがくえんこうとうがっこう",
     "site": "https://www.sonodagakuen.ed.jp/high-school",
@@ -6520,7 +6480,7 @@
     "course6": ""
   },
   {
-    "id": "326",
+    "id": "324",
     "name": "灘高等学校",
     "ruby": "なだこうとうがっこう",
     "site": "http://www.nada.ac.jp/",
@@ -6540,7 +6500,7 @@
     "course6": ""
   },
   {
-    "id": "327",
+    "id": "325",
     "name": "仁川学院高等学校",
     "ruby": "にがわがくいんこうとうがっこう",
     "site": "http://www.nigawa.ac.jp/high/",
@@ -6560,7 +6520,7 @@
     "course6": ""
   },
   {
-    "id": "328",
+    "id": "326",
     "name": "雲雀丘学園高等学校",
     "ruby": "ひばりがおかこうとうがっこう",
     "site": "http://www.hibari.jp/",
@@ -6580,7 +6540,7 @@
     "course6": ""
   },
   {
-    "id": "329",
+    "id": "327",
     "name": "報徳学園高等学校",
     "ruby": "ほうとくがくえんこうとうがっこう",
     "site": "http://www.hotoku.ac.jp/",
@@ -6600,7 +6560,7 @@
     "course6": ""
   },
   {
-    "id": "330",
+    "id": "328",
     "name": "武庫川女子大学附属高等学校",
     "ruby": "むこがわじょしだいがくふぞくこうとうがっこう",
     "site": "http://jhs.mukogawa-u.ac.jp/",
@@ -6620,7 +6580,7 @@
     "course6": ""
   },
   {
-    "id": "331",
+    "id": "329",
     "name": "百合学院高等学校",
     "ruby": "ゆりがくいんこうとうがっこう",
     "site": "http://high.yuri-gakuin.ac.jp/",
@@ -6640,7 +6600,7 @@
     "course6": ""
   },
   {
-    "id": "332",
+    "id": "330",
     "name": "大谷高等学校",
     "ruby": "おおたにこうとうがっこう",
     "site": "http://www.otani.ed.jp/syoukai/senior.html",
@@ -6660,7 +6620,7 @@
     "course6": ""
   },
   {
-    "id": "333",
+    "id": "331",
     "name": "華頂女子高等学校",
     "ruby": "かちょうじょしこうとうがっこう",
     "site": "http://www.kacho.ed.jp/",
@@ -6680,7 +6640,7 @@
     "course6": ""
   },
   {
-    "id": "334",
+    "id": "332",
     "name": "京都外大西高等学校",
     "ruby": "きょうとがいだいにしこうとうがっこう",
     "site": "http://www.kufs.ac.jp/nishiko/",
@@ -6700,7 +6660,7 @@
     "course6": ""
   },
   {
-    "id": "335",
+    "id": "333",
     "name": "京都芸術高等学校",
     "ruby": "きょうとげいじゅつこうとうがっこう",
     "site": "http://www.kyoto-geikou.ed.jp/",
@@ -6720,7 +6680,7 @@
     "course6": ""
   },
   {
-    "id": "336",
+    "id": "334",
     "name": "京都廣学館高等学校",
     "ruby": "きょうとこうがくかんこうとうがっこう",
     "site": "http://kyoto-kogakkan.mkg.ac.jp/",
@@ -6740,7 +6700,7 @@
     "course6": ""
   },
   {
-    "id": "337",
+    "id": "335",
     "name": "京都光華高等学校",
     "ruby": "きょうとこうかこうとうがっこう",
     "site": "http://hs.koka.ac.jp/",
@@ -6760,7 +6720,7 @@
     "course6": ""
   },
   {
-    "id": "338",
+    "id": "336",
     "name": "京都産業大学附属高等学校",
     "ruby": "きょうとさんぎょうだいがくふぞくこうとうがっこう",
     "site": "http://www.jsh.kyoto-su.ac.jp/",
@@ -6780,7 +6740,7 @@
     "course6": ""
   },
   {
-    "id": "339",
+    "id": "337",
     "name": "京都翔英高等学校",
     "ruby": "きょうとしょうえいこうとうがっこう",
     "site": "http://www.kyoto-shoei.ac.jp/",
@@ -6800,7 +6760,7 @@
     "course6": ""
   },
   {
-    "id": "340",
+    "id": "338",
     "name": "京都女子高等学校",
     "ruby": "きょうとじょしこうとうがっこう",
     "site": "https://kgs.ed.jp/high_school",
@@ -6820,7 +6780,7 @@
     "course6": ""
   },
   {
-    "id": "341",
+    "id": "339",
     "name": "京都精華女子高等学校",
     "ruby": "きょうとせいかじょしこうとうがっこう",
     "site": "http://www.k-seika.ed.jp/",
@@ -6840,7 +6800,7 @@
     "course6": ""
   },
   {
-    "id": "342",
+    "id": "340",
     "name": "京都成章高等学校",
     "ruby": "きょうとせいしょうこうとうがっこう",
     "site": "http://www.kyoto-econ.ac.jp/seisho/",
@@ -6860,7 +6820,7 @@
     "course6": ""
   },
   {
-    "id": "343",
+    "id": "341",
     "name": "京都先端科学大附属高等学校",
     "ruby": "きょうとせんたんかがくだいふぞくこうとうがっこう",
     "site": "http://shs-kyotogakuen.com/",
@@ -6880,7 +6840,7 @@
     "course6": ""
   },
   {
-    "id": "344",
+    "id": "342",
     "name": "京都橘高等学校",
     "ruby": "きょうとたちばなこうとうがっこう",
     "site": "http://www.tachibana-hs.jp/",
@@ -6900,7 +6860,7 @@
     "course6": ""
   },
   {
-    "id": "345",
+    "id": "343",
     "name": "京都西山高等学校",
     "ruby": "きょうとにしやまこうとうがっこう",
     "site": "http://www.kyotonishiyama.ed.jp/",
@@ -6920,7 +6880,7 @@
     "course6": ""
   },
   {
-    "id": "346",
+    "id": "344",
     "name": "京都文教高等学校",
     "ruby": "きょうとぶんきょうこうとうがっこう",
     "site": "http://www.kbu.ac.jp/kbghs/",
@@ -6940,7 +6900,7 @@
     "course6": ""
   },
   {
-    "id": "347",
+    "id": "345",
     "name": "京都明徳高等学校",
     "ruby": "きょうとめいとくこうとうがっこう",
     "site": "http://www.meitoku.ac.jp/",
@@ -6960,7 +6920,7 @@
     "course6": ""
   },
   {
-    "id": "348",
+    "id": "346",
     "name": "京都両洋高等学校",
     "ruby": "きょうとりょうようこうとうがっこう",
     "site": "http://www.kyoto-ryoyo.ed.jp/",
@@ -6980,7 +6940,7 @@
     "course6": ""
   },
   {
-    "id": "349",
+    "id": "347",
     "name": "同志社高等学校",
     "ruby": "どうししゃこうとうがっこう",
     "site": "http://www.js.doshisha.ac.jp/high/",
@@ -7000,7 +6960,7 @@
     "course6": ""
   },
   {
-    "id": "350",
+    "id": "348",
     "name": "同志社国際高等学校",
     "ruby": "どうししゃこくさいこうとうがっこう",
     "site": "http://www.intnl.doshisha.ac.jp/",
@@ -7020,7 +6980,7 @@
     "course6": ""
   },
   {
-    "id": "351",
+    "id": "349",
     "name": "同志社女子高等学校",
     "ruby": "どうししゃじょしこうとうがっこう",
     "site": "http://www.girls.doshisha.ac.jp/",
@@ -7040,7 +7000,7 @@
     "course6": ""
   },
   {
-    "id": "352",
+    "id": "350",
     "name": "花園高等学校",
     "ruby": "はなぞのこうとうがっこう",
     "site": "http://www.kyoto-hanazono-h.ed.jp/index.html",
@@ -7060,7 +7020,7 @@
     "course6": ""
   },
   {
-    "id": "353",
+    "id": "351",
     "name": "平安女学院高等学校",
     "ruby": "へいあんじょがくいんこうとうがっこう",
     "site": "http://www.jh.heian.ac.jp/",
@@ -7080,7 +7040,7 @@
     "course6": ""
   },
   {
-    "id": "354",
+    "id": "352",
     "name": "洛南高等学校",
     "ruby": "らくなんこうとうがっこう",
     "site": "http://www.rakunan-h.ed.jp/",
@@ -7100,7 +7060,7 @@
     "course6": ""
   },
   {
-    "id": "355",
+    "id": "353",
     "name": "洛陽総合高等学校",
     "ruby": "らくようそうごうこうとうがっこう",
     "site": "http://www.rakuyo.ed.jp/",
@@ -7120,7 +7080,7 @@
     "course6": ""
   },
   {
-    "id": "356",
+    "id": "354",
     "name": "立命館宇治高等学校",
     "ruby": "りつめいかんうじこうとうがっこう",
     "site": "https://www.ritsumei.ac.jp/uji/",
@@ -7140,7 +7100,7 @@
     "course6": ""
   },
   {
-    "id": "357",
+    "id": "355",
     "name": "立命館高等学校",
     "ruby": "りつめいかんこうとうがっこう",
     "site": "http://www.ritsumei.ac.jp/fkc/",
@@ -7160,7 +7120,7 @@
     "course6": ""
   },
   {
-    "id": "358",
+    "id": "356",
     "name": "龍谷大学付属平安高等学校",
     "ruby": "りゅうこくだいがくふぞくへいあんこうとうがっこう",
     "site": "http://www.heian.ed.jp/",
@@ -7180,7 +7140,7 @@
     "course6": ""
   },
   {
-    "id": "359",
+    "id": "357",
     "name": "育英西高等学校",
     "ruby": "いくえいにしこうとうがっこう",
     "site": "http://www.ikuei.ed.jp/ikunishi/",
@@ -7200,7 +7160,7 @@
     "course6": ""
   },
   {
-    "id": "360",
+    "id": "358",
     "name": "橿原学院高等学校",
     "ruby": "かしはらがくいんこうとうがっこう",
     "site": "http://www.kashigaku.ed.jp/",
@@ -7220,7 +7180,7 @@
     "course6": ""
   },
   {
-    "id": "361",
+    "id": "359",
     "name": "智辯学園高等学校",
     "ruby": "ちべんがくえんこうとうがっこう",
     "site": "https://www.chiben.ac.jp/gojo/",
@@ -7240,7 +7200,7 @@
     "course6": ""
   },
   {
-    "id": "362",
+    "id": "360",
     "name": "帝塚山高等学校",
     "ruby": "てづかやまこうとうがっこう",
     "site": "http://www.tezukayama-h.ed.jp/",
@@ -7260,7 +7220,7 @@
     "course6": ""
   },
   {
-    "id": "363",
+    "id": "361",
     "name": "天理高等学校",
     "ruby": "てんりこうとうがっこうだいいち",
     "site": "http://www.tenri-h.ed.jp/",
@@ -7280,7 +7240,7 @@
     "course6": ""
   },
   {
-    "id": "364",
+    "id": "362",
     "name": "奈良育英高等学校",
     "ruby": "ならいくえいこうとうがっこう",
     "site": "https://www.ikuei.ed.jp/ikuei-jh/",
@@ -7300,7 +7260,7 @@
     "course6": ""
   },
   {
-    "id": "365",
+    "id": "363",
     "name": "奈良女子高等学校",
     "ruby": "ならじょしこうとうがっこう",
     "site": "http://www.shirafuji.ac.jp/high/",
@@ -7320,7 +7280,7 @@
     "course6": ""
   },
   {
-    "id": "366",
+    "id": "364",
     "name": "奈良大学附属高等学校",
     "ruby": "ならだいがくふぞくこうとうがっこう",
     "site": "http://www.nara-u-h.ed.jp/",
@@ -7340,7 +7300,7 @@
     "course6": ""
   },
   {
-    "id": "367",
+    "id": "365",
     "name": "奈良文化高等学校",
     "ruby": "ならぶんかこうとうがっこう",
     "site": "http://www.narabunka.ed.jp/",
@@ -7360,7 +7320,7 @@
     "course6": ""
   },
   {
-    "id": "368",
+    "id": "366",
     "name": "西大和学園高等学校",
     "ruby": "にしやまとがくえんこうとうがっこう",
     "site": "https://www.nishiyamato.ed.jp/",
@@ -7380,7 +7340,7 @@
     "course6": ""
   },
   {
-    "id": "369",
+    "id": "367",
     "name": "開智高等学校",
     "ruby": "かいちこうとうがっこう",
     "site": "http://www.kaichi.ed.jp/",
@@ -7400,7 +7360,7 @@
     "course6": ""
   },
   {
-    "id": "370",
+    "id": "368",
     "name": "近畿大学附属和歌山高等学校",
     "ruby": "きんきだいだくふぞくわかやまこうとうがっこう",
     "site": "http://www.hwaka.kindai.ac.jp/",
@@ -7420,7 +7380,7 @@
     "course6": ""
   },
   {
-    "id": "371",
+    "id": "369",
     "name": "高野山高等学校",
     "ruby": "こうやさんこうとうがっこう",
     "site": "http://www.koyasan-h.ed.jp/",
@@ -7440,7 +7400,7 @@
     "course6": ""
   },
   {
-    "id": "372",
+    "id": "370",
     "name": "智辯学園和歌山高等学校",
     "ruby": "ちべんがくえんわかやまこうとうがっこう",
     "site": "http://www.chiben.ac.jp/wakayama/",
@@ -7460,7 +7420,7 @@
     "course6": ""
   },
   {
-    "id": "373",
+    "id": "371",
     "name": "和歌山信愛高等学校",
     "ruby": "わかやましんあいこうとうがっこう",
     "site": "http://www.shin-ai.ac.jp/",
@@ -7480,7 +7440,7 @@
     "course6": ""
   },
   {
-    "id": "374",
+    "id": "372",
     "name": "綾羽高等学校",
     "ruby": "あやはこうとうがっこう",
     "site": "https://www.ayaha.ed.jp/",
@@ -7500,7 +7460,7 @@
     "course6": ""
   },
   {
-    "id": "375",
+    "id": "373",
     "name": "青山高等学校",
     "ruby": "あおやまこうとうがっこう",
     "site": "http://aoyama-h.ed.jp/",
@@ -7520,7 +7480,7 @@
     "course6": ""
   },
   {
-    "id": "376",
+    "id": "374",
     "name": "桜丘高等学校",
     "ruby": "さくらがおかこうとうがっこう",
     "site": "http://sakura-gaoka.ed.jp/",

@@ -50,7 +50,7 @@ export const GeneralDepartmentLabel = {
 
 export const HightLevelLabel = {
   course: "進学系",
-  sub: ["普通科", "文理学科", "ウィステリア科"],
+  sub: ["普通科", "文理学科", "ウィステリア科", "文理探究科"],
 };
 
 export const IndustrialLabel = {
